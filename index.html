@@ -111,22 +111,5 @@
         <div class="ml-embedded" data-form="n2qtxZ"></div>
     </div>
 
-    <script>
-        document.getElementById('emailForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var email = document.getElementById('email').value;
-
-            fetch('https://jsonplaceholder.typicode.com/posts', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ email: email })
-            })
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error('Error:', error));
-        });
-    </script>
 </body>
 </html>
