@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect Example</title>
+    <title>Boycott Detect</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
             var isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
-            // TEST: uncomment in production
-            // if (isChrome && !isMobile) {
-            //     window.location.href = "https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih";
-            // }
+            if (isChrome && !isMobile) {
+                window.location.href = "https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih";
+            }
         });
     </script>
 
