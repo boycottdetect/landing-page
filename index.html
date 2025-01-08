@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boycott Detect</title>
+    <link href="css/brands.css" rel="stylesheet">
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
             var isMobile = /Mobi|Android/i.test(navigator.userAgent);
-
-            if (isChrome && !isMobile) {
+            console.log("DOMAIN IS: ", window.location.hostname)
+            var isDev = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
+            if (isChrome && !isMobile && !isDev) {
                 window.location.href = "https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih";
             }
         });
@@ -27,88 +30,19 @@
 
 </head>
 <body>
-    <header>
-        <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
-        <h1>Boycott Detect</h1>
-        <h3>La mejor herramienta para simplificar tus compras online</h3>
         
-    </header>
-
-    <style>
-        body {
-            font-family: 'Open sans';
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        p {
-            font-size: 1.2em;
-            color: #555;
-        }
-
-        .form-container {
-            background: #fff;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        label {
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        input[type="email"] {
-            width: 90%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            background: #007BFF;
-            border: none;
-            border-radius: 5px;
-            color: white;
-            font-size: 1em;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        .logo {
-            width: 150px;
-            height: auto;
-            margin-bottom: 20px;
-        }
-    </style>
+    <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
+    <h1>Boycott Detect</h1>
+    <h3>La mejor herramienta para simplificar tus compras online</h3>
 
     <div class="form-container">
         <div class="ml-embedded" data-form="n2qtxZ"></div>
     </div>
 
+    <div id="brands-table"></div>
+
+
 </body>
+
+<script src="js/loadDB.js"></script>
 </html>
