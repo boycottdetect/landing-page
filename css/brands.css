@@ -2,8 +2,6 @@ body {
     font-family: 'Open sans';
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -30,6 +28,7 @@ p {
     background: #fff;
     padding: 20px;
     margin: 20px;
+    max-width: 500px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -73,24 +72,30 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
-    background-color: #1a1a1a;
     padding: 10px;
     margin: 10px;
-    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .brand-div p {
-    color: white;
     font-size: 15px;
     margin: 10px;
 }
 
 .brand-div h3 {
-    color: white;
     margin: 10px;
 }
 
 .brand-div h4 {
-    color: white;
     margin: 10px;
+}
+
+.shadowed {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.corner-btn{
+    width: 20%;
+    float: end;
+    right: 3%;
 }

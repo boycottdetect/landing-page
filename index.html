@@ -6,6 +6,12 @@
     <title>Boycott Detect</title>
     <link href="css/brands.css" rel="stylesheet">
 
+    <!-- Latest minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Packaged JS (Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
@@ -30,17 +36,21 @@
 
 </head>
 <body>
-        
-    <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
-    <h1>Boycott Detect</h1>
-    <h3>La mejor herramienta para simplificar tus compras online</h3>
-
-    <div class="form-container">
-        <div class="ml-embedded" data-form="n2qtxZ"></div>
+    <div class="container-fluid pt-5 mt-5 mb-5 text-center">
+        <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
+        <h3>La herramienta para hacer boicot en tus compras online 🛍️ 🛒</h3>
+        <p>Simplifica tus compras y descubre marcas alternativas 🇵🇸</p>
+        <p class="container shadowed fs-6 p-2 rounded mt-5">No puedes instalar Boycott Detect en este dispositivo ⚠️ <br>
+            Déjanos tu correo para recordarte cuando estés utilizando un computador con Google Chrome. </p>
+        <div class="form-container container">
+            <div class="ml-embedded" data-form="n2qtxZ"></div>
+        </div>
     </div>
-
-    <div id="brands-table"></div>
-
+    <div class="container mt-5 mb-5 shadowed hover p-4" role="button" onclick="openBrands()">
+        <h4 class="text-center">🕵️ Revisa las marcas en boycott ➡️ </h4>
+        <p class="text-center">Todas las marcas son rigurosamente investigadas y adaptadas al mercado Chileno 🇨🇱</p>
+    </div>
+    <div class="container">&nbsp;</div>
 
 </body>
 
