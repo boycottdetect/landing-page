@@ -4,7 +4,6 @@ body {
     padding: 0;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: #f4f4f4;
     overflow: auto;
 }
@@ -96,6 +95,19 @@ button:hover {
 
 .corner-btn{
     width: 20%;
-    float: end;
     right: 3%;
+}
+
+@media (max-width: 768px) {
+    .corner-btn {
+        top: 0px;
+        width: 90%;
+        right: unset;
+        left: 5%;
+        top: 2%;
+    }
+
+    .brands-title {
+        margin-top: 20px;
+    }
 }
