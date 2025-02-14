@@ -46,10 +46,10 @@ input[type="email"] {
     border-radius: 5px;
 }
 
-button {
+.button {
     width: 100%;
     padding: 10px;
-    background: #007BFF;
+    background: #05512B;
     border: none;
     border-radius: 5px;
     color: white;
@@ -57,8 +57,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background: #0056b3;
+.button:hover {
+    background: #004021;
 }
 
 .logo {
@@ -96,16 +96,6 @@ button:hover {
 .corner-btn{
     width: 20%;
     right: 3%;
-}
-
-.button {
-    background-color: #007BFF;
-    color: white;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
