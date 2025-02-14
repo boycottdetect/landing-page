@@ -29,7 +29,7 @@ p {
     margin: 20px;
     max-width: 500px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 label {
@@ -90,12 +90,22 @@ button:hover {
 }
 
 .shadowed {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .corner-btn{
     width: 20%;
     right: 3%;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
