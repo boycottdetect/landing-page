@@ -1,5 +1,6 @@
 body {
-    font-family: 'Open sans';
+    /* Font not working */
+    font-family: 'Poppins sans';
     margin: 0;
     padding: 0;
     align-items: center;
