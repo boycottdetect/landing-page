@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boycott Detect</title>
+    <link href="css/brands.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Latest minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Packaged JS (Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+            var isMobile = /Mobi|Android/i.test(navigator.userAgent);
+            console.log("DOMAIN IS: ", window.location.hostname)
+            var isDev = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
+            if (isChrome && !isMobile && !isDev) {
+                window.location.href = "https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih";
+            }
+        });
+    </script>
+
+    <!-- MailerLite Universal -->
+    <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '1230366');
+    </script>
+    <!-- End MailerLite Universal -->
+
+</head>
+<body>
+    <div class="container-fluid mb-5 text-center">
+        <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
+        <h3>La herramienta para hacer boicot mientras navegas por internet 🌐
+        </h3>
+        <p>Infórmate de las marcas y empresas en boicot y descubre alternativas éticas 🇵🇸</p>
+        <div class="container shadowed fs-6 p-2 rounded mt-5">
+            <p>Boycott Detect solo puede ser instalada en un Computador ⚠️ 💻 <br>
+                <strong>Déjanos tu correo</strong> para recordarte cuando estés utilizando un computador con Google Chrome. </p>
+                <div class="ml-embedded" data-form="n2qtxZ"></div>
+        </div>
+    <h4 class="text-center mt-5">🕵️ Revisa las marcas en boycott ➡️ </h4>
+    <p class="text-center text-sm">Todas las marcas son rigurosamente investigadas.</p>
+    <div class="button w-50 m-auto" role="button" onclick="openBrands()">
+        Ver Marcas
+    </div>
+</div>
+
+    <div class="container text-center">
+        <a href="https://www.instagram.com/boycottdetect/" target="_blank">
+            <img src="assets/instagram.png" alt="Instagram Logo" class="icon" width="20">@boycottdetect
+        </a>
+    </div>
+    <div class="container">&nbsp;</div>
+
+</body>
+
+<script src="js/loadDB.js"></script>
+</html>

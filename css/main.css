@@ -1,0 +1,132 @@
+body {
+    background-image: url('../assets/Fondologo.png');
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.container-1 {
+    padding: 90px;
+}
+
+.container-2 {
+    padding: 50px;
+}
+
+.container-3 {
+    padding: 0px 200px 0px 200px;
+}
+
+.no-mobile {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.image-margin {
+    margin: 50px;
+}
+
+.space {
+    height: 250px;
+}
+
+@media (max-width: 768px) {
+    .container-1 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .container-2 {
+        padding: 20px;
+    }
+
+    .container-3 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .no-mobile {
+        display: none;
+    }
+
+    .image-margin {
+        margin: 30px;
+    }
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+h3 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.bg-main {
+    background-color: #333333;
+    color: white;
+}
+
+.bg-main-2 {
+    background-color: #CCCCCC;
+    color: #333333;
+}
+
+.bg-banner {
+    background-image: url('../assets/banner\ marcas.png');
+    background-size: cover;
+    color: white;
+}
+
+.bg-banner-mobile {
+    background-image: url('../assets/banner-zoom.png');
+    background-size: cover;
+    color: white;
+}
+
+.btn-main {
+    text-decoration: none;
+    border-color: #ff2e38 !important;
+    background-color: #ff2e38 !important;
+    color: white;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px !important;
+    text-decoration: none;
+}
+
+.btn-main:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.green {
+    color: #00963a;
+}
+

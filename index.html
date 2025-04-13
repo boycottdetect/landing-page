@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boycott Detect</title>
-    <link href="css/brands.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
@@ -15,55 +16,119 @@
     <!-- Bootstrap Packaged JS (Bundle) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-            var isMobile = /Mobi|Android/i.test(navigator.userAgent);
-            console.log("DOMAIN IS: ", window.location.hostname)
-            var isDev = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
-            if (isChrome && !isMobile && !isDev) {
-                window.location.href = "https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih";
-            }
-        });
-    </script>
-
-    <!-- MailerLite Universal -->
-    <script>
-        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-        ml('account', '1230366');
-    </script>
-    <!-- End MailerLite Universal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div class="container-fluid mb-5 text-center">
-        <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
-        <h3>La herramienta para hacer boicot mientras navegas por internet 🌐
-        </h3>
-        <p>Infórmate de las marcas y empresas en boicot y descubre alternativas éticas 🇵🇸</p>
-        <div class="container shadowed fs-6 p-2 rounded mt-5">
-            <p>Boycott Detect solo puede ser instalada en un Computador ⚠️ 💻 <br>
-                <strong>Déjanos tu correo</strong> para recordarte cuando estés utilizando un computador con Google Chrome. </p>
-                <div class="ml-embedded" data-form="n2qtxZ"></div>
+    <div class="container-fluid text-center">
+        <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo" width="200px">
+    </div>
+
+    <div class="bg-main container-1 d-lg-flex">
+        <div class="mobile p-3">
+            <img src="./assets/Laptoplogo.png" width="100%">
         </div>
-    <h4 class="text-center mt-5">🕵️ Revisa las marcas en boycott ➡️ </h4>
-    <p class="text-center text-sm">Todas las marcas son rigurosamente investigadas.</p>
-    <div class="button w-50 m-auto" role="button" onclick="openBrands()">
-        Ver Marcas
+        <div class="container-2">
+            <h1>LA HERRAMIENTA PARA HACER BOICOT MIENTRAS NAVEGAS POR INTERNET</h1>
+            <p>Descubre las marcas y empresas que apoyan el genocidio del pueblo palestino y explora nuevas alternativas éticas</p>
+            <a href="./subscribe.html" class="btn btn-primary btn-main btn-lg" role="button">AÑADE BOYCOTT DETECT AQUÍ ></a>
+        </div>
+        <div class="no-mobile">
+            <img src="./assets/Laptoplogo.png" width="100%">
+        </div>
     </div>
-</div>
-
-    <div class="container text-center">
-        <a href="https://www.instagram.com/boycottdetect/" target="_blank">
-            <img src="assets/instagram.png" alt="Instagram Logo" class="icon" width="20">@boycottdetect
-        </a>
+    <div class="container-2 text-center">
+        <h2 class="green">Simplifica tu navegación y toma acción con Boycott Detect</h2>
+        <p class="container-3">Boycott Detect detecta marcas en tiempo real que son cómplices del genocidio palestino. Con información clara, te ayudamos a tomar 
+            decisiones informadas y a ejercer un boicot pacífico y de alto impacto.
+        </p>
     </div>
-    <div class="container">&nbsp;</div>
-
+    <div class="bg-banner-mobile mobile">
+        <div class="space"></div>
+    </div>
+    <div class="container-2 bg-main-2">
+        <h2 class="text-center">¿CÓMO FUNCIONA?</h2>
+        <div class="row m-5">
+            <div class="col image-margin">
+                <h3>01</h3>
+                <p>Detecta marcas directamente en las páginas web y resultados de búsquedas.</p>
+                <img src="./assets/Image 1logo.png" width="100%">
+            </div>
+            <div class="col image-margin no-mobile">
+                <img class="mb-3" src="./assets/Image 2logo.png" width="100%">
+                <h3>02</h3>
+                <p>Aparece un popup o los íconos 🚫🚫🚫 junto a las marcas de boicot</p>
+            </div>
+            <div class="col image-margin mobile mt-3">
+                <h3>02</h3>
+                <p>Aparece un popup o los íconos 🚫🚫🚫 junto a las marcas de boicot</p>
+                <img class="mb-3" src="./assets/Image 2logo.png" width="100%">
+            </div>
+            <div class="col image-margin">
+                <h3>03</h3>
+                <p>Es seguro y respeta tu privacidad: no se guardan datos ni historial de navegación.</p>
+                <img src="./assets/Image 3logo.png" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="container-1 bg-banner no-mobile">
+        <h1>
+            REVISA LAS MARCAS EN BOYCOTT DETECT
+        </h1>
+        <p>
+            Todas las marcas son rigurosamente investigadas
+        </p>
+        <a href="./brands_list.html" class="btn btn-primary btn-main btn-lg" role="button">VER MARCAS</a>
+    </div>
+    <div class="container-2 text-center">
+        <h2>BENEFICIOS</h2>
+        <div class="row container-3">
+            <div class="col m-5">
+                <img src="./assets/Icono 1logo.png" width="60px">
+                <p>Herramienta de impacto pacífico y directo</p>
+            </div>
+            <div class="col m-5">
+                <img src="./assets/Icono 2logo.png" width="60px">
+                <p>Información actualizada con investigaciones rigurosas</p>
+            </div>
+            <div class="col m-5">
+                <img src="./assets/Icono 3logo.png" width="60px">
+                <p>Compatible con búsquedas web</p>
+            </div>
+        </div>
+    </div>
+    <div class="no-mobile">
+        <div class="container-2 bg-main d-lg-flex">
+            <img class="m-3" src="./assets/Icono footerlogo.png" width="60px" height="50px">
+            <div class="d-block">
+                <h2>AYÚDANOS A MEJORAR</h2>
+                <p>En este link puedes escribir el feedback para los desarrolladores, marcas y otros comentarios: </p>
+                <a href="https://forms.gle/t36UXXrRkmoaHjc86" class="btn btn-main btn-main btn-lg text-white" role="button">ESCRIBIR MEJORAS ></a>
+            </div>
+            <img class="" src="./assets/Logo fondo oscuro.png" width="150px">
+            <div class="d-block">
+                <a href="https://forms.gle/t36UXXrRkmoaHjc86" class="btn btn-main btn-main btn-lg text-white mb-4" role="button">AÑADE BOYCOTT DETECT AQUÍ ></a>
+                <a class="d-flex" href="https://instagram.com/boycottdetect" ><img src="./assets/instagram.png" width="20px">@boycottdetect</a>
+            </div>
+        </div>
+    </div>
+    <div class="mobile">
+        <div class="container-2 bg-main d-lg-flex text-center">
+            <img class="m-3" src="./assets/Icono footerlogo.png" width="60px" height="50px">
+            <div class="d-block">
+                <h2>AYÚDANOS A MEJORAR</h2>
+                <p>En este link puedes escribir el feedback para los desarrolladores, marcas y otros comentarios: </p>
+                <a href="https://forms.gle/t36UXXrRkmoaHjc86" class="btn btn-main btn-main btn-lg text-white" role="button">DEJAR MEJORAS ></a>
+            </div>
+            <img class="" src="./assets/Logo fondo oscuro.png" width="150px">
+            <div class="d-block">
+                <a href="/landing-page/subscribe.html" class="btn btn-main btn-main btn-lg text-white mb-4" role="button">AÑADE BOYCOTT DETECT AQUÍ ></a>
+                <a class="d-flex  justify-content-center" href="https://instagram.com/boycottdetect" ><img src="./assets/instagram.png" width="20px">@boycottdetect</a>
+            </div>
+        </div>
+    </div>
 </body>
 
-<script src="js/loadDB.js"></script>
 </html>
