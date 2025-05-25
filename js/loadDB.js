@@ -1,7 +1,7 @@
 var bransDB = []
 
 const loadDB = async () => {
-    const response = await fetch('databases/notion_database.json');
+    const response = await fetch('https://boycottdetect.github.io/landing-page/databases/notion_database.json');
     const jsonData = await response.json();
     brandsDB = jsonData
 }
