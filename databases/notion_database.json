@@ -1,4 +1,70 @@
 {
+    "Elbit Systems": {
+        "companyName": "Elbit Systems",
+        "subbrands": [],
+        "explanation": "Elbit Systems es la empresa de manufactura de armas de Israel m\u00e1s grande. Declara tener 6.8 mil millones de USD de ingresos. Es suministrador m\u00e1s grande de armas de la IDF. La empresa utiliza su relaci\u00f3n con la fuerza militar Israel\u00ed como herramienta de marketing y diciendo que sus armas y tecnolog\u00eda est\u00e1n \u201cprobadas en terreno\u201d. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Elbit-Systems-1f60f8c9b2ed8092b5a0efaa99eae7d4",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Burger King": {
+        "companyName": "Burger King",
+        "subbrands": [],
+        "explanation": "Burger King regala vouchers de comida para soldados de la IDF (Israeli Defense Forces). Los vouchers son canjeables en las tiendas Kosher de las cadenas de Burger King",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Burger-King-1f50f8c9b2ed80d4a4b0e213a609f6f8",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Nahmias": {
+        "companyName": "Nahmias",
+        "subbrands": [],
+        "explanation": "Es auspiciador de la Revista Shalom, una revista abiertamente sionista que hace un lavado de imagen en sus publicaciones y revistas a favor del sionismo.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Nahmias-1d40f8c9b2ed8051a34fec993dd817a3",
+        "icons": ""
+    },
+    "Nestle": {
+        "companyName": "Nestle",
+        "subbrands": [
+            "Purina",
+            "Dog Chow",
+            "Nature\u2019s Heart",
+            "Cheerios",
+            "Chocapic",
+            "Triton",
+            "Fitness",
+            "McKay",
+            "Zucosos",
+            "Trix",
+            "Corn Flakes",
+            "Estrellitas",
+            "Lucky Charms",
+            "Nespresso",
+            "Nescafe",
+            "Nescaf\u00e9",
+            "Doce Gusto",
+            "La Fete",
+            "KitKat",
+            "Sahne Nuss",
+            "Sahne-Nuss",
+            "Trencito",
+            "Super-8",
+            "Super 8",
+            "Maggi",
+            "Morocha",
+            "Kuky",
+            "Criollitas",
+            "Grill",
+            "Savory",
+            "Danky",
+            "Nido",
+            "Svelty",
+            "Nesquik",
+            "Milo",
+            "Chiquitin",
+            "Nestl\u00e9"
+        ],
+        "explanation": "Nestl\u00e9 Israel es propietaria de Osem, una empresa israel\u00ed de fabricaci\u00f3n de alimentos que opera en asentamientos ilegales en la Palestina ocupada, contribuyendo a unos 34\u00a0000 millones de d\u00f3lares en ingresos en 2023. Nestl\u00e9 tambi\u00e9n invirti\u00f3 m\u00e1s de 10 millones de d\u00f3lares en f\u00e1bricas en territorios ocupados, violando as\u00ed el derecho internacional, seg\u00fan la ONU. Adem\u00e1s, los v\u00ednculos de Nestl\u00e9 con el ej\u00e9rcito israel\u00ed incluyen el suministro de alimentos por valor de m\u00e1s de 5 millones de d\u00f3lares anuales, lo que apoya indirectamente las operaciones militares contra los palestinos.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Nestle-1d40f8c9b2ed80e38827f65adb4371ba",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
     "Jos\u00e9 Antonio Kast": {
         "companyName": "Jos\u00e9 Antonio Kast",
         "subbrands": [],
@@ -263,13 +329,14 @@
             "Hellmann's",
             "Lux",
             "Le Sancy",
-            "Maicena",
+            "Maizena",
             "Malloa",
             "Rinso",
             "Sedal",
             "St Ives",
             "TRESemm\u00e9",
-            "Knorr"
+            "Knorr",
+            "TRESemme"
         ],
         "explanation": "Unilever ha invertido m\u00e1s de 250 millones de d\u00f3lares operando en Israel, empleando a m\u00e1s de 2.000 personas, tiene 4 plantas de manufactura. ",
         "public_url": "https://vagabond-cold-3bd.notion.site/Unilever-e6a354c9af9b40968491a234b295f51a",
@@ -748,7 +815,7 @@
     "Clinique": {
         "companyName": "Clinique",
         "subbrands": [],
-        "explanation": "Clinique es propiedad de Estee Lauder, cuyos propietarios, especialmente Ronald Lauder, tienen opiniones sionistas extremistas y apoyan financiera y pol\u00edticamente la ocupaci\u00f3n israel\u00ed de tierras palestinas.",
+        "explanation": "Clinique es propiedad de Estee Lauder, cuyos propietarios, especialmente Ronald Lauder, tienen opiniones sionistas extremistas y apoyan financiera y pol\u00edticamente la ocupaci\u00f3n israel\u00ed de tierras palestinas. Adem\u00e1s, Clinique tiene tiendas a lo largo de todo Israel.",
         "public_url": "https://vagabond-cold-3bd.notion.site/Clinique-6ef2270a80484082856529810de133c9",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
