@@ -15,8 +15,40 @@
     <!-- Bootstrap Packaged JS (Bundle) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <!-- Logo on the right -->
+            <a class="navbar-brand me-3" href="index.html" style="float: left;">
+                <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo" width="80px" style="margin: -10px;">
+            </a>
+            
+            <!-- Hamburger button for mobile -->
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link" href="brands_list.html">Ver Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link" href="subscribe.html">Instala Boycott Detect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div id="brands" class="p-4 fixed-top position-sticky bg-white shadowed overflow-auto">
         <div class="d-inline">
             <h3 class="brands-title text-center">🇵🇸 Marcas en boycott
