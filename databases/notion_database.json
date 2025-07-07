@@ -146,7 +146,20 @@
     },
     "Laboratorios Maver": {
         "companyName": "Laboratorios Maver",
-        "subbrands": [],
+        "subbrands": [
+            "Tapsin",
+            "Dolorub",
+            "Leblon",
+            "CremaLechuga",
+            "Armonyl, Caristop",
+            "Oralgene, Nenegloss",
+            "Enerday",
+            "Maver",
+            "Tapsin Forte",
+            "Taps\u00edn",
+            "Maver S.A.",
+            ""
+        ],
         "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
         "public_url": "https://vagabond-cold-3bd.notion.site/Laboratorios-Maver-1500f8c9b2ed8070add3e5ad045f9680",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
@@ -414,7 +427,13 @@
     },
     "Teva": {
         "companyName": "Teva",
-        "subbrands": [],
+        "subbrands": [
+            "Laboratorio Chile",
+            "Kitadol",
+            "Kitadol Infantil",
+            "Kitadol Duo",
+            ""
+        ],
         "explanation": "Teva Pharmaceutical Industries Ltd., a menudo denominada simplemente Teva, es una empresa farmac\u00e9utica multinacional israel\u00ed con sede en Petah Tikva, Israel. Teva opera plantas de fabricaci\u00f3n en todo Israel, que producen una variedad de medicamentos distribuidos tanto a nivel local como internacional.",
         "public_url": "https://vagabond-cold-3bd.notion.site/Teva-cf12e7e2be1c4ce08b696e70491f5340",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
