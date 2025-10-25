@@ -1,40 +1,175 @@
 {
-    "Julian Elfenbein ": {
-        "companyName": "Julian Elfenbein ",
+    "McDonalds": {
+        "companyName": "McDonalds",
+        "subbrands": [],
+        "explanation": "Uno de sus mayores inversores dona grandes cantidades a diferentes causas en Israel. McDonald's tambi\u00e9n proporcion\u00f3 comidas gratuitas a las tropas israel\u00edes en medio de la guerra con Ham\u00e1s. McDonald's de otros pa\u00edses de Oriente Medio tambi\u00e9n ha donado dinero para ayudar a los civiles en Gaza.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/McDonalds-047ad36241d04795a18ad40d52637d9e",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "eBay": {
+        "companyName": "eBay",
+        "subbrands": [],
+        "explanation": "eBay, una multinacional estadounidense de comercio electr\u00f3nico, tiene presencia en Israel principalmente a trav\u00e9s de la adquisici\u00f3n de empresas locales y el establecimiento de centros de desarrollo.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/eBay-0a0bf171b2c24254adcf014a663f4778",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "SodaStream": {
+        "companyName": "SodaStream",
+        "subbrands": [],
+        "explanation": "Una empresa manufacturera israel\u00ed conocida por su dispositivo para producir agua carbonatada. Fue adquirida por PepsiCo, pero sus operaciones principales siguen estando en Israel, en territorios en disputa.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/SodaStream-0a594a485c1242b89865c1a1b841b087",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Puma": {
+        "companyName": "Puma",
+        "subbrands": [],
+        "explanation": "Puma es c\u00f3mplice del apoyo al conflicto palestino-israel\u00ed debido a su patrocinio de la Asociaci\u00f3n de F\u00fatbol de Israel (IFA). Los cr\u00edticos se\u00f1alan que la IFA incluye equipos de asentamientos israel\u00edes ubicados en los territorios ocupados, situaci\u00f3n considerada ilegal seg\u00fan el derecho internacional. Puma ha anunciado que no renovar\u00e1 su patrocinio. El contrato de Puma con la Asociaci\u00f3n de F\u00fatbol de Israel expira en diciembre de 2024.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Puma-0a5f94bb9bfc440ea73ba883eb7e36f8",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Puregym": {
+        "companyName": "Puregym",
+        "subbrands": [],
+        "explanation": "PureGym, una cadena internacional de gimnasios, ha sido objeto de boicots a partir del 9 de mayo de 2024. Esto se produjo despu\u00e9s de que el director ejecutivo Humphrey Cobbold expresara su apoyo a las ventas de armas del Reino Unido a Israel durante una aparici\u00f3n en BBC Question Time. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Puregym-10643560db444eb6b88b03bde1d5225e",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Oracle": {
+        "companyName": "Oracle",
+        "subbrands": [],
+        "explanation": "Adquiri\u00f3 varias empresas israel\u00edes y tiene presencia en Israel principalmente a trav\u00e9s de ventas y servicios de soporte. Oracle don\u00f3 dinero a los empleados israel\u00edes despu\u00e9s de que comenz\u00f3 la guerra, con 10.000 shekels israel\u00edes adicionales para los empleados que sirven en las Fuerzas de Defensa de Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Oracle-13be36678de94ee7ac8568984c57c421",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "IMEXPORTA": {
+        "companyName": "IMEXPORTA",
+        "subbrands": [],
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/IMEXPORTA-1500f8c9b2ed800bb901d6db2fc798fb",
+        "icons": ""
+    },
+    "Kychendal": {
+        "companyName": "Kychendal",
+        "subbrands": [],
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Kychendal-1500f8c9b2ed801989f5e3562c7f8f40",
+        "icons": ""
+    },
+    "Laboratorios Maver": {
+        "companyName": "Laboratorios Maver",
         "subbrands": [
-            "La Fuente Chilena Vitacura",
+            "Tapsin",
+            "Dolorub",
+            "Leblon",
+            "CremaLechuga",
+            "Armonyl, Caristop",
+            "Oralgene, Nenegloss",
+            "Enerday",
+            "Maver",
+            "Tapsin Forte",
+            "Taps\u00edn",
+            "Maver S.A.",
             ""
         ],
-        "explanation": "Ha tenido una postura sionista en varias ocasiones en televisi\u00f3n u otras plataformas, siendo la \u00faltima denunciada ante el CNTV con 52  reclamos en Junio de 2025  tras justificar el actuar de Israel y relativizar las cifras de muertes en Gaza.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Julian-Elfenbein-2480f8c9b2ed809ead3afd37bcf6e0a6",
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Laboratorios-Maver-1500f8c9b2ed8070add3e5ad045f9680",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Sara Concha": {
-        "companyName": "Sara Concha",
+    "CasaIdeas": {
+        "companyName": "CasaIdeas",
         "subbrands": [],
-        "explanation": "Diputada por el distrito 19 (\u00d1uble) desde 2022 y presidenta del Partido Social Cristiano (PSC). Activista provida, se opone a la Ley de aborto y a la eutanasia con el fin de priorizar la vida por sobre todo. Quiere proteger las relaciones con Israel por motivos tecnol\u00f3gicos y militares, pese a las acusaciones y denuncias de violaciones a los derechos humanos en Palestina. ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Sara-Concha-2100f8c9b2ed8051886dcb838b676604",
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/CasaIdeas-1500f8c9b2ed807288a9e9dd3c70b7c8",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Francesca Mu\u00f1oz ": {
-        "companyName": "Francesca Mu\u00f1oz ",
+    "Alaluf": {
+        "companyName": "Alaluf",
         "subbrands": [],
-        "explanation": "Diputada por el distrito 20 (Biob\u00edo) por el Partido Social Cristiano desde el 2018. Ha defendido las relaciones diplom\u00e1ticas con Israel, sin mencionar los cr\u00edmenes contra la poblaci\u00f3n Palestina, priorizando intereses pol\u00edticos y econ\u00f3micos por sobre su discurso pro-vida. ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Francesca-Mu-oz-20f0f8c9b2ed80fca84fedd4d7f17c1f",
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen un discurso demonizando a los palestinos y planteando a los Israel\u00edes como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Alaluf-1500f8c9b2ed809abe88cdc3e7260cdb",
+        "icons": ""
+    },
+    "Virutex": {
+        "companyName": "Virutex",
+        "subbrands": [
+            "Ilko",
+            "Impeke"
+        ],
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Virutex-1500f8c9b2ed80ae9083d4710698cf27",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Elbit Systems": {
-        "companyName": "Elbit Systems",
+    "KIA": {
+        "companyName": "KIA",
         "subbrands": [],
-        "explanation": "Elbit Systems es la empresa de manufactura de armas de Israel m\u00e1s grande. Declara tener 6.8 mil millones de USD de ingresos. Es suministrador m\u00e1s grande de armas de la IDF. La empresa utiliza su relaci\u00f3n con la fuerza militar Israel\u00ed como herramienta de marketing y diciendo que sus armas y tecnolog\u00eda est\u00e1n \u201cprobadas en terreno\u201d. ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Elbit-Systems-1f60f8c9b2ed8092b5a0efaa99eae7d4",
+        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/KIA-1500f8c9b2ed80bc9b34fbbd2162ad33",
+        "icons": ""
+    },
+    "Playtika Holdings Corp": {
+        "companyName": "Playtika Holdings Corp",
+        "subbrands": [],
+        "explanation": "Playtika Holding Corp., co-founded by Robert Antokol and Uri Shahak in 2010, is an Israeli company that develops mobile games and applications. Uri Shahak is the son of Amnon Lipkin-Shahak, a former Chief of Staff of the Israel Defense Forces and Israeli Minister.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Playtika-Holdings-Corp-15f93641509e4c2a9715f04311b27f79",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Burger King": {
-        "companyName": "Burger King",
+    "PepsiCo": {
+        "companyName": "PepsiCo",
+        "subbrands": [
+            "Mountain Dew",
+            "7 Up",
+            "Mirinda",
+            "Cheetos",
+            "Gatorade",
+            "Tropicana",
+            "Lipton Iced Teas",
+            "Rockstar Energy",
+            "7up",
+            "Lays",
+            "Doritos",
+            "Evercrisp",
+            "Lay\u2019s",
+            "Lay's",
+            "Pepsi",
+            "Pepsi Zero"
+        ],
+        "explanation": "En 2018, PepsiCo adquiri\u00f3 SodaStream por 3.200 millones de d\u00f3lares, una empresa con sede en Israel. Esta adquisici\u00f3n ha provocado reacciones dada la ubicaci\u00f3n de algunas de las operaciones de SodaStream en territorios en disputa. PepsiCo tambi\u00e9n tiene una empresa conjunta con Sabra.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/PepsiCo-18de7fd10dd541f0896ea23b46d79822",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Monday.com": {
+        "companyName": "Monday.com",
         "subbrands": [],
-        "explanation": "Burger King regala vouchers de comida para soldados de la IDF (Israeli Defense Forces). Los vouchers son canjeables en las tiendas Kosher de las cadenas de Burger King",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Burger-King-1f50f8c9b2ed80d4a4b0e213a609f6f8",
+        "explanation": "Monday.com",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Monday-com-19a70f28352141f38d9e83bbb2bb55d9",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Hites": {
+        "companyName": "Hites",
+        "subbrands": [],
+        "explanation": "La familia Hites es due\u00f1a de las multitiendas Hites. La familia Hites es abiertamente sionista.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Hites-1b50f8c9b2ed80cdb286d5e3d7b17531",
+        "icons": ""
+    },
+    "General Electric": {
+        "companyName": "General Electric",
+        "subbrands": [],
+        "explanation": "Un conglomerado multinacional con sede en EE. UU. que cotiza en bolsa y que opera en los campos de la energ\u00eda, las energ\u00edas renovables, la aviaci\u00f3n y la atenci\u00f3n sanitaria. La empresa proporciona turbinas e\u00f3licas y servicios de mantenimiento a dos grandes proyectos de energ\u00eda e\u00f3lica en el Gol\u00e1n sirio ocupado, \u201cEmek Habacha\u201d y \u201cRuach Beresheet\u201d, los mayores proyectos de energ\u00eda renovable en Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/General-Electric-1b5c83e2c2ee45cdb91c8d819b6d02f5",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Gal Gadot": {
+        "companyName": "Gal Gadot",
+        "subbrands": [],
+        "explanation": "Es una actriz abiertamente sionista. A la edad de 20 a\u00f1os, Gadot sirvi\u00f3 durante dos a\u00f1os obligatorios en las\u00a0Fuerzas de Defensa de Israel como instructora de combate. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Gal-Gadot-1c50f8c9b2ed8070960fec54ee348fba",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Jos\u00e9 Antonio Kast": {
+        "companyName": "Jos\u00e9 Antonio Kast",
+        "subbrands": [],
+        "explanation": "Ha realizado publicaciones en redes sociales durante el genocidio en Gaza, mostrando su apoyo a Israel y criticando las medidas pro palestinas realizadas por Gabriel Boric durante su mandato.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Jos-Antonio-Kast-1ca0f8c9b2ed805b91f7f8accb4505cb",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Nahmias": {
@@ -85,170 +220,60 @@
             "Chiquitin",
             "Nestl\u00e9"
         ],
-        "explanation": "Nestl\u00e9 Israel es propietaria de Osem, una empresa israel\u00ed de fabricaci\u00f3n de alimentos que opera en asentamientos ilegales en la Palestina ocupada, contribuyendo a unos 34\u00a0000 millones de d\u00f3lares en ingresos en 2023. Nestl\u00e9 tambi\u00e9n invirti\u00f3 m\u00e1s de 10 millones de d\u00f3lares en f\u00e1bricas en territorios ocupados, violando as\u00ed el derecho internacional, seg\u00fan la ONU. Adem\u00e1s, los v\u00ednculos de Nestl\u00e9 con el ej\u00e9rcito israel\u00ed incluyen el suministro de alimentos por valor de m\u00e1s de 5 millones de d\u00f3lares anuales, lo que apoya indirectamente las operaciones militares contra los palestinos.",
+        "explanation": "Nestl\u00e9 Israel es propietaria de Osem, una empresa israel\u00ed de fabricaci\u00f3n de alimentos que opera en asentamientos ilegales, contribuyendo a unos 34.000 millones de d\u00f3lares en ingresos en 2023. Nestl\u00e9 tambi\u00e9n invirti\u00f3 m\u00e1s de 10 millones de d\u00f3lares en f\u00e1bricas en territorios ocupados. Los v\u00ednculos de Nestl\u00e9 con el ej\u00e9rcito israel\u00ed incluyen el suministro de alimentos por m\u00e1s de 5 millones de d\u00f3lares anuales, lo que apoya indirectamente las operaciones militares contra los palestinos.",
         "public_url": "https://vagabond-cold-3bd.notion.site/Nestle-1d40f8c9b2ed80e38827f65adb4371ba",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Jos\u00e9 Antonio Kast": {
-        "companyName": "Jos\u00e9 Antonio Kast",
+    "Crazy Labs": {
+        "companyName": "Crazy Labs",
         "subbrands": [],
-        "explanation": "Ha realizado publicaciones en redes sociales durante el genocidio en Gaza, mostrando su apoyo a Israel y criticando las medidas pro palestinas realizadas por Gabriel Boric durante su mandato.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Jos-Antonio-Kast-1ca0f8c9b2ed805b91f7f8accb4505cb",
+        "explanation": "Crazy Labs es una empresa de juegos israel\u00ed para dispositivos m\u00f3viles con sede en Tel Aviv. Fundada en 2010, la empresa colabora con desarrolladores locales para mantener una posici\u00f3n en el mercado global de juegos.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Crazy-Labs-1d441bc0442b442886b0e6f43bb661a0",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Gal Gadot": {
-        "companyName": "Gal Gadot",
+    "Burger King": {
+        "companyName": "Burger King",
         "subbrands": [],
-        "explanation": "Es una actriz abiertamente sionista. A la edad de 20 a\u00f1os, Gadot sirvi\u00f3 durante dos a\u00f1os obligatorios en las\u00a0Fuerzas de Defensa de Israel como instructora de combate. ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Gal-Gadot-1c50f8c9b2ed8070960fec54ee348fba",
+        "explanation": "Burger King regala vouchers de comida para soldados de la IDF (Israeli Defense Forces). Los vouchers son canjeables en las tiendas Kosher de las cadenas de Burger King",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Burger-King-1f50f8c9b2ed80d4a4b0e213a609f6f8",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Hites": {
-        "companyName": "Hites",
+    "Elbit Systems": {
+        "companyName": "Elbit Systems",
         "subbrands": [],
-        "explanation": "La familia Hites es due\u00f1a de las multitiendas Hites. La familia Hites es abiertamente sionista.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Hites-1b50f8c9b2ed80cdb286d5e3d7b17531",
-        "icons": ""
-    },
-    "Netflix": {
-        "companyName": "Netflix",
-        "subbrands": [],
-        "explanation": "El a\u00f1o 2024 la plataforma decidi\u00f3 no renovar las licencias de la serie de pel\u00edculas \u00a8Historias de Palestina, siendo adem\u00e1s su respuesta que hab\u00edan otras pel\u00edculas disponibles para ver y no dejando el acceso global de ellas en medio de un genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Netflix-2c9a262db7ea46d9872d18fc77d90c1f",
-        "icons": ""
-    },
-    "Reebok": {
-        "companyName": "Reebok",
-        "subbrands": [],
-        "explanation": "Reebok firm\u00f3 en 2025 un contrato de dos a\u00f1os para ser patrocinador de la Asociaci\u00f3n Israel\u00ed de F\u00fatbol (IFA).",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Reebok-40f127c800a34edf9628d595f9f5a653",
+        "explanation": "Elbit Systems es la empresa de manufactura de armas de Israel m\u00e1s grande. Declara tener 6.8 mil millones de USD de ingresos. Es suministrador m\u00e1s grande de armas de la IDF. La empresa utiliza su relaci\u00f3n con la fuerza militar Israel\u00ed como herramienta de marketing y diciendo que sus armas y tecnolog\u00eda est\u00e1n \u201cprobadas en terreno\u201d. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Elbit-Systems-1f60f8c9b2ed8092b5a0efaa99eae7d4",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "KIA": {
-        "companyName": "KIA",
+    "Francesca Mu\u00f1oz ": {
+        "companyName": "Francesca Mu\u00f1oz ",
         "subbrands": [],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/KIA-1500f8c9b2ed80bc9b34fbbd2162ad33",
-        "icons": ""
-    },
-    "CasaIdeas": {
-        "companyName": "CasaIdeas",
-        "subbrands": [],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/CasaIdeas-1500f8c9b2ed807288a9e9dd3c70b7c8",
+        "explanation": "Diputada por el distrito 20 (Biob\u00edo) por el Partido Social Cristiano desde el 2018. Ha defendido las relaciones diplom\u00e1ticas con Israel, sin mencionar los cr\u00edmenes contra la poblaci\u00f3n Palestina, priorizando intereses pol\u00edticos y econ\u00f3micos por sobre su discurso pro-vida. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Francesca-Mu-oz-20f0f8c9b2ed80fca84fedd4d7f17c1f",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Kychendal": {
-        "companyName": "Kychendal",
+    "Sara Concha": {
+        "companyName": "Sara Concha",
         "subbrands": [],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Kychendal-1500f8c9b2ed801989f5e3562c7f8f40",
-        "icons": ""
+        "explanation": "Diputada por el distrito 19 (\u00d1uble) desde 2022 y presidenta del Partido Social Cristiano (PSC). Activista provida, se opone a la Ley de aborto y a la eutanasia con el fin de priorizar la vida por sobre todo. Quiere proteger las relaciones con Israel por motivos tecnol\u00f3gicos y militares, pese a las acusaciones y denuncias de violaciones a los derechos humanos en Palestina. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Sara-Concha-2100f8c9b2ed8051886dcb838b676604",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Virutex": {
-        "companyName": "Virutex",
+    "Airbnb": {
+        "companyName": "Airbnb",
+        "subbrands": [],
+        "explanation": "Una empresa estadounidense que cotiza en bolsa y opera una plataforma de alquiler vacacional en l\u00ednea. La empresa ofrece anuncios en m\u00e1s de 220 pa\u00edses y regiones de todo el mundo. Airbnb ofrece anuncios de alojamiento en asentamientos ilegales en territorio palestino y sirio ocupados.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Airbnb-2468690663034fc9b3a9978e88acade4",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Julian Elfenbein ": {
+        "companyName": "Julian Elfenbein ",
         "subbrands": [
-            "Ilko",
-            "Impeke"
-        ],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Virutex-1500f8c9b2ed80ae9083d4710698cf27",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Laboratorios Maver": {
-        "companyName": "Laboratorios Maver",
-        "subbrands": [
-            "Tapsin",
-            "Dolorub",
-            "Leblon",
-            "CremaLechuga",
-            "Armonyl, Caristop",
-            "Oralgene, Nenegloss",
-            "Enerday",
-            "Maver",
-            "Tapsin Forte",
-            "Taps\u00edn",
-            "Maver S.A.",
+            "La Fuente Chilena Vitacura",
             ""
         ],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Laboratorios-Maver-1500f8c9b2ed8070add3e5ad045f9680",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Alaluf": {
-        "companyName": "Alaluf",
-        "subbrands": [],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen un discurso demonizando a los palestinos y planteando a los Israel\u00edes como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Alaluf-1500f8c9b2ed809abe88cdc3e7260cdb",
-        "icons": ""
-    },
-    "IMEXPORTA": {
-        "companyName": "IMEXPORTA",
-        "subbrands": [],
-        "explanation": "Auspiciador de revista Shalom, medio de difusi\u00f3n sionista en Chile. Mediante sus publicaciones mantienen el lavado de cerebro de los jud\u00edos en Chile demonizando a los palestinos y planteando a los jud\u00edos como v\u00edctimas en vez de responsables del genocidio.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/IMEXPORTA-1500f8c9b2ed800bb901d6db2fc798fb",
-        "icons": ""
-    },
-    "Premier": {
-        "companyName": "Premier",
-        "subbrands": [],
-        "explanation": "Vende productos de belleza creados a partir de los minerales del mar muerto, en territorio ocupado de Cisjordania. Directamente se aprovecha de la ocupaci\u00f3n para lucrar y extraer recursos naturales",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Premier-329da0c09b8849c69680acaa31ec677f",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Delta Galil": {
-        "companyName": "Delta Galil",
-        "subbrands": [
-            "Adidas",
-            "Calvin Klein",
-            "Columbia",
-            "Disney",
-            "Polo Ralph Lauren",
-            "Tommy Hilfiger",
-            "Converse",
-            "ELLE",
-            "Adidas Performance",
-            "Adidas Sportswear",
-            "Adidas Originals",
-            "Adidas Outdoor"
-        ],
-        "explanation": "Delta Galil es una empresa textil israel\u00ed que cotiza en la bolsa de Tel Aviv y produce bajo licencia l\u00edneas de productos de distintas marcas como Adidas, Calvin Klein, Columbia, Disney, Polo Ralph Lauren, Tommy Hilfiger, Converse y ELLE.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Delta-Galil-f9225a15d78b45e8b2d46df38ca462dc",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Coca Cola": {
-        "companyName": "Coca Cola",
-        "subbrands": [
-            "Coca-Cola",
-            "Sprite",
-            "Fanta",
-            "Aquarius",
-            "vitaminwater",
-            "powerade",
-            "Coca Cola Light",
-            "Coca-Cola Light",
-            "Coca Cola Zero",
-            "Coca-Cola zero",
-            "Sprite Zero",
-            "Fanta Zero",
-            ""
-        ],
-        "explanation": "Coca Cola Company tiene como franquicia de forma exclusiva en Israel a The Central Beverage Company Ltd., tambi\u00e9n conocido como Coca-Cola Israel. Coca-Cola Israel opera un centro de distribuci\u00f3n regional local y refrigeradores industriales en la zona industrial de Atarot en Palestina ocupada.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Coca-Cola-fe189a05489f4e9f8f0dc7389be58d4a",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Puregym": {
-        "companyName": "Puregym",
-        "subbrands": [],
-        "explanation": "PureGym, una cadena internacional de gimnasios, ha sido objeto de boicots a partir del 9 de mayo de 2024. Esto se produjo despu\u00e9s de que el director ejecutivo Humphrey Cobbold expresara su apoyo a las ventas de armas del Reino Unido a Israel durante una aparici\u00f3n en BBC Question Time. ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Puregym-10643560db444eb6b88b03bde1d5225e",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Playtika Holdings Corp": {
-        "companyName": "Playtika Holdings Corp",
-        "subbrands": [],
-        "explanation": "Playtika Holding Corp., co-founded by Robert Antokol and Uri Shahak in 2010, is an Israeli company that develops mobile games and applications. Uri Shahak is the son of Amnon Lipkin-Shahak, a former Chief of Staff of the Israel Defense Forces and Israeli Minister.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Playtika-Holdings-Corp-15f93641509e4c2a9715f04311b27f79",
+        "explanation": "Ha tenido una postura sionista en varias ocasiones en televisi\u00f3n u otras plataformas, siendo la \u00faltima denunciada ante el CNTV con 52  reclamos en Junio de 2025  tras justificar el actuar de Israel y relativizar las cifras de muertes en Gaza.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Julian-Elfenbein-2480f8c9b2ed809ead3afd37bcf6e0a6",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Volkswagen Group": {
@@ -258,11 +283,102 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/Volkswagen-Group-26f7d712433a4077b9307c36ee8aa92b",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
+    "Microsoft": {
+        "companyName": "Microsoft",
+        "subbrands": [],
+        "explanation": "Microsoft adquiri\u00f3 varias empresas emergentes israel\u00edes y tiene una gran presencia en I+D en el pa\u00eds. La empresa tiene un historial de profundo compromiso con la industria de alta tecnolog\u00eda israel\u00ed y estrechos v\u00ednculos con el ej\u00e9rcito israel\u00ed. ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Microsoft-2b31e390ce9244cf82bba51f137aceb1",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Netflix": {
+        "companyName": "Netflix",
+        "subbrands": [],
+        "explanation": "El a\u00f1o 2024 la plataforma decidi\u00f3 no renovar las licencias de la serie de pel\u00edculas \u00a8Historias de Palestina, siendo adem\u00e1s su respuesta que hab\u00edan otras pel\u00edculas disponibles para ver y no dejando el acceso global de ellas en medio de un genocidio.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Netflix-2c9a262db7ea46d9872d18fc77d90c1f",
+        "icons": ""
+    },
+    "Tara": {
+        "companyName": "Tara",
+        "subbrands": [],
+        "explanation": "Una empresa l\u00e1ctea m\u00e1s peque\u00f1a en comparaci\u00f3n con Tnuva, pero que a\u00fan tiene una presencia significativa en el mercado israel\u00ed. Fue adquirida por Coca Cola en 1997.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Tara-31f76779ba1944f682214113d98bcfdb",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Premier": {
+        "companyName": "Premier",
+        "subbrands": [],
+        "explanation": "Vende productos de belleza creados a partir de los minerales del mar muerto, en territorio ocupado de Cisjordania. Directamente se aprovecha de la ocupaci\u00f3n para lucrar y extraer recursos naturales",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Premier-329da0c09b8849c69680acaa31ec677f",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Mars": {
+        "companyName": "Mars",
+        "subbrands": [
+            "Twix",
+            "M&M's",
+            "Snickers",
+            "Pedigree",
+            "WHISKAS",
+            "ROYAL CANIN",
+            "Orbit",
+            "5 Gum",
+            "Skittles",
+            "Starburst",
+            "Maltesers",
+            "Bounty",
+            "Milky Way",
+            "Juicy Fruit",
+            "Mars",
+            "Altoids",
+            "Big Red",
+            "Doublemint",
+            "Eclipse"
+        ],
+        "explanation": "Mars ha invertido en Foster FoodTech Solutions, una foodtech Israel\u00ed en conjunto con Jerusalem Venture Partners, un veh\u00edculo israel\u00ed que se apodera de la palabra Jerusal\u00e9n con su nombre.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Mars-35b034de114245abb5e5de9e9a132b71",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Reebok": {
+        "companyName": "Reebok",
+        "subbrands": [],
+        "explanation": "Reebok firm\u00f3 en 2025 un contrato de dos a\u00f1os para ser patrocinador de la Asociaci\u00f3n Israel\u00ed de F\u00fatbol (IFA).",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Reebok-40f127c800a34edf9628d595f9f5a653",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
     "Disney": {
         "companyName": "Disney",
         "subbrands": [],
         "explanation": "Tras los ataques en Israel, The Walt Disney Company est\u00e1 donando 2 millones de d\u00f3lares a organizaciones que brindan ayuda humanitaria a Israel.",
         "public_url": "https://vagabond-cold-3bd.notion.site/Disney-46f42b66fe4040928a18ce04dec00aa7",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Procter & Gamble": {
+        "companyName": "Procter & Gamble",
+        "subbrands": [
+            "Ariel",
+            "Braun",
+            "Gillette",
+            "Gillete Venus",
+            "Head & Shoulders",
+            "Head and Shoulders",
+            "Herbal Essences",
+            "Pantene",
+            "Old Spice",
+            "Oral-B",
+            "Pampers",
+            "Tide",
+            "Procter and Gamble",
+            ""
+        ],
+        "explanation": "Procter & Gamble abri\u00f3 un centro de I+D en Tel Aviv, Palestina ocupada, en el que invierte 2.000 millones de d\u00f3lares al a\u00f1o.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Procter-Gamble-4b01d23286f346d8b614bada36e65fcd",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "HSBC": {
+        "companyName": "HSBC",
+        "subbrands": [],
+        "explanation": "HSBC tiene inversiones en empresas que suministraban equipos y servicios militares a Israel, lo que, seg\u00fan afirman, contribuye a la perpetuaci\u00f3n de la ocupaci\u00f3n israel\u00ed y violaci\u00f3n de los derechos humanos contra los palestinos.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/HSBC-4b239cee7c6c46ef8d56aa00d627a458",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Tempur Sealy": {
@@ -272,11 +388,100 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/Tempur-Sealy-55ab61f0afba4ba58c76df1bcaa38874",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
+    "Moon Active": {
+        "companyName": "Moon Active",
+        "subbrands": [],
+        "explanation": "Moon Active es un desarrollador israel\u00ed de juegos para dispositivos m\u00f3viles. Con sede en Tel Aviv, Moon Active es un actor destacado en la escena tecnol\u00f3gica de Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Moon-Active-567e1b45ccdf4a3db3a5fc30d60b2ab3",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Danone": {
+        "companyName": "Danone",
+        "subbrands": [
+            "Activia",
+            "Light & Free",
+            "Oikos",
+            "Allpro",
+            "Danonino",
+            "Silk",
+            "Aqua",
+            "YoPRO",
+            "Actimel",
+            "Danette",
+            "International Delight",
+            "Evian"
+        ],
+        "explanation": "Danone invirti\u00f3 en la foodtech israel\u00ed Wilk el 2023, con una inversi\u00f3n de 3.5m.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Danone-57da0754fc6c410ab1a4501a703fb742",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Adidas": {
+        "companyName": "Adidas",
+        "subbrands": [],
+        "explanation": "Adidas utiliza al fabricante israel\u00ed Delta Galil para fabricar su gama de ropa interior.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Adidas-5895376d38ce4ecd91119d92f5e56fc2",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "NVIDIA": {
+        "companyName": "NVIDIA",
+        "subbrands": [],
+        "explanation": "Las operaciones de NVIDIA en Israel se centran principalmente en tecnolog\u00edas de inteligencia artificial y aprendizaje profundo. NVIDIA tambi\u00e9n adquiri\u00f3 la empresa israel\u00ed Mellanox Technologies, que es destacada en productos de redes. Recientemente, Nvidia recaud\u00f3 10 millones de d\u00f3lares para organizaciones ben\u00e9ficas israel\u00edes que ayudan a civiles afectados por la guerra, don\u00f3 computadoras a evacuados del norte y el sur de Israel y proporcion\u00f3 comidas calientes desde su oficina de Yokneam.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/NVIDIA-5ddee944eb834e5296df67c565564669",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Expedia Group": {
+        "companyName": "Expedia Group",
+        "subbrands": [
+            "Hotels.com",
+            "Trivago",
+            "Vrbo",
+            "Travelocity",
+            "Hotwire",
+            "Orbitz",
+            "ebookers",
+            "CheapTickets",
+            "Expedia Cruises",
+            "Wotif",
+            "CarRentals",
+            "Egencia"
+        ],
+        "explanation": "Expedia Group Inc. es una empresa de viajes online. A trav\u00e9s de sus sitios web de b\u00fasqueda y reserva de viajes, ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Expedia-Group-5ef0fa662cdd4b8689e3e26cbe34dc6a",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "HP": {
+        "companyName": "HP",
+        "subbrands": [
+            "HP Wolf Security",
+            "HyperX",
+            "OMEN",
+            "Z"
+        ],
+        "explanation": "HP tiene centros de I+D en Kiryat Gat que contribuyen a las tecnolog\u00edas de impresi\u00f3n e inform\u00e1tica. HP era el \u00fanico proveedor de servidores Itanium para el Sistema Aviv, que es la Administraci\u00f3n Israel\u00ed de Pasos Fronterizos, Poblaci\u00f3n e Inmigraci\u00f3n.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/HP-61232349efbb4628bec45b7dfa4b999a",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
     "G1 Secure Solutions (G4S)": {
         "companyName": "G1 Secure Solutions (G4S)",
         "subbrands": [],
         "explanation": "Tambi\u00e9n conocida como G4S, la empresa ha proporcionado servicios de seguridad, incluidos equipos y personal de seguridad, a empresas en los asentamientos de la Cisjordania ocupada, incluidos Modi\u2019in Illit, Ma\u2019ale Adumim y el asentamiento de Kalia en el valle del Jord\u00e1n. La empresa tambi\u00e9n ha prestado servicios al barrio del asentamiento de Har Adar en Jerusal\u00e9n Oriental ocupada, incluidos muchos otros casos.",
         "public_url": "https://vagabond-cold-3bd.notion.site/G1-Secure-Solutions-G4S-62964ebc47df485ea62d51c716ea0918",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Intel": {
+        "companyName": "Intel",
+        "subbrands": [
+            "McAfee"
+        ],
+        "explanation": "Tiene m\u00faltiples instalaciones en Israel (11.700 empleados) y ha desarrollado varios de sus chips en sus centros de I+D israel\u00edes. La planta Fab 28 de Intel que produce chips de 7 nm tiene su sede en Kiryat Gat, fundada justo al oeste de las ruinas de la aldea palestina de Irak al-Manshiyya. El 26 de diciembre de 2023, Intel anunci\u00f3 su mayor inversi\u00f3n hasta la fecha: un plan de 25.000 millones de d\u00f3lares para construir una nueva f\u00e1brica de chips en Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Intel-6edf70289e624a61becea1f1fcabd34f",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Clinique": {
+        "companyName": "Clinique",
+        "subbrands": [],
+        "explanation": "Clinique es propiedad de Estee Lauder, cuyos propietarios, especialmente Ronald Lauder, tienen opiniones sionistas extremistas y apoyan financiera y pol\u00edticamente la ocupaci\u00f3n israel\u00ed de tierras palestinas. Adem\u00e1s, Clinique tiene tiendas a lo largo de todo Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Clinique-6ef2270a80484082856529810de133c9",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Caterpillar": {
@@ -300,11 +505,126 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/Caterpillar-78775776d1724499a1d72efb9d8dfae0",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
+    "Tempo Beverages": {
+        "companyName": "Tempo Beverages",
+        "subbrands": [],
+        "explanation": "Produce una variedad de bebidas alcoh\u00f3licas y no alcoh\u00f3licas. Tiene una presencia significativa en el mercado de bebidas israel\u00ed.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Tempo-Beverages-7c8e4def4d5943ba841488777bc3fc7d",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Fiverr": {
+        "companyName": "Fiverr",
+        "subbrands": [],
+        "explanation": "Fiverr, un mercado en l\u00ednea para servicios freelance, se fund\u00f3 en Israel y desde entonces ha crecido a nivel mundial. Conecta a empresas con trabajadores freelance que ofrecen servicios digitales en diversas categor\u00edas.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Fiverr-7e8aeaacab8243bc974b26e1f8fac6d5",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "AXA": {
+        "companyName": "AXA",
+        "subbrands": [],
+        "explanation": "Una compa\u00f1\u00eda multinacional de seguros, debido a sus inversiones en ciertas empresas y bancos israel\u00edes que supuestamente est\u00e1n involucrados en actividades relacionadas con el conflicto entre Israel y Palestina. Los partidarios del boicot creen que las inversiones de AXA contribuyen indirectamente a violaciones del derecho internacional y abusos de los derechos humanos contra los palestinos",
+        "public_url": "https://vagabond-cold-3bd.notion.site/AXA-7edc5509c6034f60803c1553eeb70449",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Bankinvest": {
+        "companyName": "Bankinvest",
+        "subbrands": [],
+        "explanation": "Bankinvest tiene v\u00ednculos financieros con la ocupaci\u00f3n israel\u00ed de los territorios palestinos. Ofrece pr\u00e9stamos y garant\u00edas a empresas que realizan actividades en los territorios ocupados o invierte dinero en ellas.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Bankinvest-8b62b9e8c3bc4473925b667014861180",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Google (Alphabet)": {
+        "companyName": "Google (Alphabet)",
+        "subbrands": [
+            "Chrome",
+            "DeepMind",
+            "YouTube",
+            "Waymo"
+        ],
+        "explanation": "Google ha establecido centros de I+D en Israel, centr\u00e1ndose principalmente en algoritmos de b\u00fasqueda, tecnolog\u00edas publicitarias y seguridad. Adem\u00e1s, ha adquirido nuevas empresas israel\u00edes, incluida Waze. En colaboraci\u00f3n con Amazon, Google lanz\u00f3 el Proyecto Nimbus en 2021 para proporcionar servicios en la nube al gobierno y al ej\u00e9rcito israel\u00edes. Si bien este proyecto tiene como objetivo mejorar la infraestructura tecnol\u00f3gica de Israel, tambi\u00e9n ha enfrentado cr\u00edticas por ayudar a la vigilancia y afectar los derechos de los palestinos.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Google-Alphabet-930d950911c34402ae95eb81091bf8bf",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Achva": {
+        "companyName": "Achva",
+        "subbrands": [],
+        "explanation": "Una empresa israel\u00ed de alimentaci\u00f3n especializada en tahini, halva y otros productos similares. Sus productos se distribuyen tanto a nivel nacional como internacional.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Achva-953771815eac42f0858e5263c6d07608",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Bath & Body Works": {
+        "companyName": "Bath & Body Works",
+        "subbrands": [],
+        "explanation": "Les Wexner, propietario de L Brands, la empresa matriz de Bath&Body Works, es un aliado incondicional de Israel y socio comercial desde hace mucho tiempo de Jeffrey Epstein, el traficante de ni\u00f1os condenado.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Bath-Body-Works-9699693d5cbf453c8cd8ff3e9427482d",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Cisco": {
+        "companyName": "Cisco",
+        "subbrands": [],
+        "explanation": "La empresa integra plataformas en redes, seguridad, colaboraci\u00f3n, aplicaciones y la nube. A trav\u00e9s de sus filiales israel\u00edes de propiedad total, Cisco Systems tiene una amplia base de complicidad con la econom\u00eda de ocupaci\u00f3n de Israel, predominantemente a trav\u00e9s de la prestaci\u00f3n de servicios al ej\u00e9rcito israel\u00ed.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Cisco-9d4c6a8e29b340979b795710cf5fcf80",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Varonis": {
+        "companyName": "Varonis",
+        "subbrands": [],
+        "explanation": "Varonis, cofundada en Israel y Estados Unidos, se especializa en seguridad y an\u00e1lisis de datos, y se centra en proteger datos confidenciales, detectar amenazas internas y garantizar el cumplimiento normativo.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Varonis-9ff7579a40a44d9492289146eb0cba56",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "TripAdvisor": {
+        "companyName": "TripAdvisor",
+        "subbrands": [],
+        "explanation": "A trav\u00e9s de sus sitios web de reserva de viajes, TripAdvisor anuncia hoteles, complejos tur\u00edsticos, restaurantes y casas de hu\u00e9spedes en Cisjordania ocupada, Jerusal\u00e9n Oriental ocupada y el Gol\u00e1n sirio ocupado.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/TripAdvisor-a22a3903598a4724aa0224cf54ab91dc",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
     "AHAVA": {
         "companyName": "AHAVA",
         "subbrands": [],
         "explanation": "Fabrica productos cosm\u00e9ticos a partir de minerales del Mar Muerto. La planta de producci\u00f3n, el centro de visitantes y la tienda principal de la empresa se encuentran en el asentamiento de Mitzpe Shalem, en el valle del Jord\u00e1n ocupado.",
         "public_url": "https://vagabond-cold-3bd.notion.site/AHAVA-a896c8cf780748f18abfc869232cbd8c",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Imperva": {
+        "companyName": "Imperva",
+        "subbrands": [],
+        "explanation": "Fundada inicialmente en Israel, actualmente con sede en Estados Unidos, Imperva ofrece soluciones de ciberseguridad enfocadas en proteger sitios web y aplicaciones de datos en la nube y en las instalaciones locales.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Imperva-a8e591448dd34621bc5f46614dbd647f",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Wix.com": {
+        "companyName": "Wix.com",
+        "subbrands": [],
+        "explanation": "Wix es una plataforma que permite a los usuarios crear sitios web mediante el uso de herramientas de arrastrar y soltar en l\u00ednea. Tiene una base de usuarios significativa en todo el mundo. Wix alent\u00f3 a sus empleados a crear contenido que apoyara la \"narrativa de Israel\" en el conflicto del pa\u00eds con militantes de Ham\u00e1s en Gaza, seg\u00fan muestran mensajes internos filtrados.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Wix-com-a8ee101a5f4e4fa2aca6d2121a0b4d77",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Actavis Generics": {
+        "companyName": "Actavis Generics",
+        "subbrands": [],
+        "explanation": "Actavis Generics, adquirida por Teva Pharmaceutical Industries en 2016 (Farmac\u00e9utica Israel\u00ed), era l\u00edder mundial en productos farmac\u00e9uticos gen\u00e9ricos. Esta integraci\u00f3n reforz\u00f3 la cartera de productos gen\u00e9ricos de Teva y su presencia en el mercado mundial.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Actavis-Generics-a9d1fc360da5457ebbb588bcd667e12e",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Mondelez": {
+        "companyName": "Mondelez",
+        "subbrands": [
+            "Milka",
+            "Toblerone",
+            "Philadelphia",
+            "Oreo"
+        ],
+        "explanation": "Mondelez, invirti\u00f3 en The Kitchen Hub, una foodtech israel\u00ed.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Mondelez-abdbdd601d9f43e89837d31054484e3e",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Carrefour": {
+        "companyName": "Carrefour",
+        "subbrands": [],
+        "explanation": "El 8 de marzo de 2022, el Grupo Carrefour anunci\u00f3 un acuerdo de franquicia en Israel, en el que se asociar\u00e1 con Electra Consumer Products y su filial, Yenot Bitan. Estas entidades participan en actividades dentro de los pol\u00e9micos asentamientos israel\u00edes. Esto convierte a Carrefour en c\u00f3mplice de los cr\u00edmenes de guerra cometidos por el r\u00e9gimen israel\u00ed de ocupaci\u00f3n, colonialismo y apartheid.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Carrefour-aee1425e86bb4ba381d40a121666a084",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "L'Or\u00e9al": {
@@ -335,11 +655,143 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/L-Or-al-af204cae9ece43d5a84e995d285bf880",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
+    "IBM": {
+        "companyName": "IBM",
+        "subbrands": [],
+        "explanation": "Tiene una fuerte presencia de I+D en Israel que se centra en tecnolog\u00edas de nube, inteligencia artificial y ciberseguridad y ha adquirido varias empresas de tecnolog\u00eda israel\u00edes.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/IBM-b08c0044eeb24deabc8b14b922643362",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
     "Plarium": {
         "companyName": "Plarium",
         "subbrands": [],
         "explanation": "Plarium is an Israeli game developer headquartered in Herzliya, founded in 2009. The company is renowned for its MMO strategy games like Vikings: War of Clans and Raid: Shadow Legends. As a key player in Israel\u2019s tech scene.",
         "public_url": "https://vagabond-cold-3bd.notion.site/Plarium-b4c3eeac396042db90fda5deeaa1aeee",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Chanel": {
+        "companyName": "Chanel",
+        "subbrands": [],
+        "explanation": "Alain Wertheimer, que conden\u00f3 el ataque a Israel pero guard\u00f3 silencio sobre los ataques a Gaza, tambi\u00e9n prometi\u00f3 4 millones de d\u00f3lares en nombre de Chanel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Chanel-b520a24d0ba7415a99c59980a61ca13d",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Tnuva": {
+        "companyName": "Tnuva",
+        "subbrands": [],
+        "explanation": "Tnuva es el mayor fabricante de alimentos de Israel; sus ventas representan el 70% del mercado l\u00e1cteo del pa\u00eds, adem\u00e1s de las ventas de carne, huevos y alimentos envasados.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Tnuva-baa9aad233cd4842b28e302cf6d3be4e",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Prigat": {
+        "companyName": "Prigat",
+        "subbrands": [],
+        "explanation": "Produce jugos y productos derivados, propiedad de Gan Shmuel Foods. Tiene operaciones en Israel y exporta a varios pa\u00edses.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Prigat-bb3d0a9386fc411298641929ac9270e8",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Tabnine": {
+        "companyName": "Tabnine",
+        "subbrands": [],
+        "explanation": "Tabnine es una herramienta de finalizaci\u00f3n de c\u00f3digo impulsada por IA desarrollada en Israel que mejora la eficiencia de la codificaci\u00f3n en varios lenguajes de programaci\u00f3n. Est\u00e1 dise\u00f1ada para optimizar el proceso de desarrollo de software al integrarse con m\u00faltiples editores de c\u00f3digo.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Tabnine-beced5473bac4fa6a47434a86e75d5f6",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Radware": {
+        "companyName": "Radware",
+        "subbrands": [],
+        "explanation": "Radware es una empresa de ciberseguridad que brinda soluciones para garantizar la disponibilidad del servicio de aplicaciones en centros de datos f\u00edsicos, virtuales, en la nube y definidos por software.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Radware-c04c4d50bd314623a1bf58a05bf842d8",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Sabra": {
+        "companyName": "Sabra",
+        "subbrands": [],
+        "explanation": "Sabra, una empresa conocida por su hummus y otros productos alimenticios, es en parte propiedad de Strauss Group, una corporaci\u00f3n israel\u00ed. Strauss Group se dice que apoya a las Fuerzas de Defensa de Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Sabra-c67e59e60d674f0a88348c4938ef93b0",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Citibank (Citigroup)": {
+        "companyName": "Citibank (Citigroup)",
+        "subbrands": [],
+        "explanation": "Se ha alegado de que Citibank mantiene relaciones financieras con empresas que participan en operaciones militares y de seguridad en territorios ocupados. Los activistas sostienen que estas relaciones apoyan indirectamente acciones asociadas con la ocupaci\u00f3n israel\u00ed.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Citibank-Citigroup-c8ccc71d74394f19a255065e6584ab0f",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "CyberArk": {
+        "companyName": "CyberArk",
+        "subbrands": [],
+        "explanation": "CyberArk se especializa en la gesti\u00f3n de acceso privilegiado, un aspecto fundamental de la ciberseguridad. Con sede en Israel, CyberArk tiene un amplio alcance internacional y cuenta con oficinas en todo el mundo. Han manifestado abiertamente su apoyo a Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/CyberArk-cac1d5977c064086a9d2ce151522afc4",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "JPMorgan Chase": {
+        "companyName": "JPMorgan Chase",
+        "subbrands": [],
+        "explanation": "JPMorgan enfrenta acusaciones de tener importantes relaciones financieras y negocios con varias empresas e instituciones israel\u00edes. Los cr\u00edticos sostienen que algunas de estas entidades est\u00e1n involucradas directa o indirectamente en la ocupaci\u00f3n y la continuaci\u00f3n de las actividades de asentamiento en Cisjordania.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/JPMorgan-Chase-ce439695461c4e82841c4a18006b1db9",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Teva": {
+        "companyName": "Teva",
+        "subbrands": [
+            "Laboratorio Chile",
+            "Kitadol",
+            "Kitadol Infantil",
+            "Kitadol Duo",
+            ""
+        ],
+        "explanation": "Teva Pharmaceutical Industries Ltd., a menudo denominada simplemente Teva, es una empresa farmac\u00e9utica multinacional israel\u00ed con sede en Petah Tikva, Israel. Teva opera plantas de fabricaci\u00f3n en todo Israel, que producen una variedad de medicamentos distribuidos tanto a nivel local como internacional.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Teva-cf12e7e2be1c4ce08b696e70491f5340",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Nykredit": {
+        "companyName": "Nykredit",
+        "subbrands": [],
+        "explanation": "Nykredit tiene v\u00ednculos financieros con la ocupaci\u00f3n israel\u00ed de los territorios palestinos. Ofrece pr\u00e9stamos y garant\u00edas a empresas que operan en territorios ocupados o invierte dinero en ellas.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Nykredit-d09c4b2f92824e12913fc6f85e15826f",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Dell": {
+        "companyName": "Dell",
+        "subbrands": [],
+        "explanation": "Los productos de Dell incluyen computadoras personales y servidores. En 2023, Dell Technologies gan\u00f3 la licitaci\u00f3n de servidores del Ministerio de Defensa de Israel, que se considera la licitaci\u00f3n de servidores m\u00e1s grande en Israel hasta el momento. El alcance es de 150 millones de d\u00f3lares por un per\u00edodo de dos a\u00f1os, durante los cuales Dell proporcionar\u00e1 servidores y mantenimiento al ej\u00e9rcito israel\u00ed y al Ministerio de Defensa israel\u00ed (IMOD). Se sabe que la Fundaci\u00f3n Michael & Susan Dell, establecida por los fundadores de Dell, brinda apoyo directo a Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Dell-d2b2456fa808431ba491f61d6cd07426",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "BNP Paribas": {
+        "companyName": "BNP Paribas",
+        "subbrands": [],
+        "explanation": "Se ha acusado a BNP Paribas de mantener relaciones comerciales e inversiones con empresas implicadas en la construcci\u00f3n y sostenibilidad de los asentamientos israel\u00edes. Los cr\u00edticos sostienen que esos v\u00ednculos convierten al banco en c\u00f3mplice de los problemas jur\u00eddicos y de derechos humanos asociados a la ocupaci\u00f3n.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/BNP-Paribas-d2e58d9a5f71491f93b88f002492eaa1",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Siemens": {
+        "companyName": "Siemens",
+        "subbrands": [],
+        "explanation": "El equipo de Who Profits document\u00f3 los sistemas de control de tr\u00e1fico de Siemens en las carreteras 5 y 443 de la Cisjordania ocupada, como parte de un sistema vial israel\u00ed por el que los palestinos tienen prohibido circular. En marzo de 2018, Siemens y la empresa estatal Israel Railways firmaron un contrato por 917 millones de d\u00f3lares para la entrega de 60 trenes regionales Desiro HC, con un total de 330 vagones el\u00e9ctricos, durante un per\u00edodo de diez a\u00f1os.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Siemens-d6426b7a4b004773bf9bde6631ef7178",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Strauss Group": {
+        "companyName": "Strauss Group",
+        "subbrands": [],
+        "explanation": "Una empresa alimentaria multinacional israel\u00ed, importante en el sector de productos l\u00e1cteos y snacks, con una variedad de asociaciones y cooperaciones en Israel y en todo el mundo.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Strauss-Group-e1fc153d790944e284f999c83159cf65",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Check Point Software Technologies": {
+        "companyName": "Check Point Software Technologies",
+        "subbrands": [],
+        "explanation": "Check Point, es una empresa Estadounidense - Israel\u00ed y es pionero en ciberseguridad, ofrece amplias soluciones de seguridad y tiene una profunda presencia en el panorama mundial de ciberseguridad, con sede en Israel.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Check-Point-Software-Technologies-e49344c2afa643f986c2f2d5bdb673da",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Ratiopharm": {
+        "companyName": "Ratiopharm",
+        "subbrands": [],
+        "explanation": "Ratiopharm, una empresa farmac\u00e9utica l\u00edder en gen\u00e9ricos adquirida por Teva Pharmaceutical Industries en 2010, se especializaba en la producci\u00f3n de medicamentos gen\u00e9ricos asequibles. Esta adquisici\u00f3n ampli\u00f3 significativamente la cartera de medicamentos gen\u00e9ricos de Teva y fortaleci\u00f3 su posici\u00f3n en el mercado farmac\u00e9utico mundial.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Ratiopharm-e60083f54f2c41adabb9e15e735993d0",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Unilever": {
@@ -380,285 +832,11 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/Unilever-e6a354c9af9b40968491a234b295f51a",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Volvo Group": {
-        "companyName": "Volvo Group",
+    "Qualcomm": {
+        "companyName": "Qualcomm",
         "subbrands": [],
-        "explanation": "Volvo Group suministra maquinaria pesada para la demolici\u00f3n de viviendas palestinas en Cisjordania ocupada y Jerusal\u00e9n Oriental, la construcci\u00f3n de asentamientos israel\u00edes y la construcci\u00f3n del Muro de Separaci\u00f3n.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Volvo-Group-ecd1901b02fe4eefb534fba9e6cfc2d0",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Toyota Motor Corporation": {
-        "companyName": "Toyota Motor Corporation",
-        "subbrands": [],
-        "explanation": "Los veh\u00edculos Toyota Hilux son utilizados por el ej\u00e9rcito y la polic\u00eda fronteriza israel\u00edes para proteger asentamientos ilegales y bases militares a lo largo de Cisjordania, para reprimir manifestantes palestinos y para llevar a cabo demoliciones de viviendas.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Toyota-Motor-Corporation-f943c812853f49c787e4356b073a978f",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Crazy Labs": {
-        "companyName": "Crazy Labs",
-        "subbrands": [],
-        "explanation": "Crazy Labs es una empresa de juegos israel\u00ed para dispositivos m\u00f3viles con sede en Tel Aviv. Fundada en 2010, la empresa colabora con desarrolladores locales para mantener una posici\u00f3n en el mercado global de juegos.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Crazy-Labs-1d441bc0442b442886b0e6f43bb661a0",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Moon Active": {
-        "companyName": "Moon Active",
-        "subbrands": [],
-        "explanation": "Moon Active es un desarrollador israel\u00ed de juegos para dispositivos m\u00f3viles. Con sede en Tel Aviv, Moon Active es un actor destacado en la escena tecnol\u00f3gica de Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Moon-Active-567e1b45ccdf4a3db3a5fc30d60b2ab3",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Varonis": {
-        "companyName": "Varonis",
-        "subbrands": [],
-        "explanation": "Varonis, cofundada en Israel y Estados Unidos, se especializa en seguridad y an\u00e1lisis de datos, y se centra en proteger datos confidenciales, detectar amenazas internas y garantizar el cumplimiento normativo.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Varonis-9ff7579a40a44d9492289146eb0cba56",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Imperva": {
-        "companyName": "Imperva",
-        "subbrands": [],
-        "explanation": "Fundada inicialmente en Israel, actualmente con sede en Estados Unidos, Imperva ofrece soluciones de ciberseguridad enfocadas en proteger sitios web y aplicaciones de datos en la nube y en las instalaciones locales.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Imperva-a8e591448dd34621bc5f46614dbd647f",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Radware": {
-        "companyName": "Radware",
-        "subbrands": [],
-        "explanation": "Radware es una empresa de ciberseguridad que brinda soluciones para garantizar la disponibilidad del servicio de aplicaciones en centros de datos f\u00edsicos, virtuales, en la nube y definidos por software.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Radware-c04c4d50bd314623a1bf58a05bf842d8",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "CyberArk": {
-        "companyName": "CyberArk",
-        "subbrands": [],
-        "explanation": "CyberArk se especializa en la gesti\u00f3n de acceso privilegiado, un aspecto fundamental de la ciberseguridad. Con sede en Israel, CyberArk tiene un amplio alcance internacional y cuenta con oficinas en todo el mundo. Han manifestado abiertamente su apoyo a Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/CyberArk-cac1d5977c064086a9d2ce151522afc4",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Teva": {
-        "companyName": "Teva",
-        "subbrands": [
-            "Laboratorio Chile",
-            "Kitadol",
-            "Kitadol Infantil",
-            "Kitadol Duo",
-            ""
-        ],
-        "explanation": "Teva Pharmaceutical Industries Ltd., a menudo denominada simplemente Teva, es una empresa farmac\u00e9utica multinacional israel\u00ed con sede en Petah Tikva, Israel. Teva opera plantas de fabricaci\u00f3n en todo Israel, que producen una variedad de medicamentos distribuidos tanto a nivel local como internacional.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Teva-cf12e7e2be1c4ce08b696e70491f5340",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Check Point Software Technologies": {
-        "companyName": "Check Point Software Technologies",
-        "subbrands": [],
-        "explanation": "Check Point, es una empresa Estadounidense - Israel\u00ed y es pionero en ciberseguridad, ofrece amplias soluciones de seguridad y tiene una profunda presencia en el panorama mundial de ciberseguridad, con sede en Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Check-Point-Software-Technologies-e49344c2afa643f986c2f2d5bdb673da",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Ratiopharm": {
-        "companyName": "Ratiopharm",
-        "subbrands": [],
-        "explanation": "Ratiopharm, una empresa farmac\u00e9utica l\u00edder en gen\u00e9ricos adquirida por Teva Pharmaceutical Industries en 2010, se especializaba en la producci\u00f3n de medicamentos gen\u00e9ricos asequibles. Esta adquisici\u00f3n ampli\u00f3 significativamente la cartera de medicamentos gen\u00e9ricos de Teva y fortaleci\u00f3 su posici\u00f3n en el mercado farmac\u00e9utico mundial.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Ratiopharm-e60083f54f2c41adabb9e15e735993d0",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "HSBC": {
-        "companyName": "HSBC",
-        "subbrands": [],
-        "explanation": "HSBC tiene inversiones en empresas que suministraban equipos y servicios militares a Israel, lo que, seg\u00fan afirman, contribuye a la perpetuaci\u00f3n de la ocupaci\u00f3n israel\u00ed y violaci\u00f3n de los derechos humanos contra los palestinos.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/HSBC-4b239cee7c6c46ef8d56aa00d627a458",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Danone": {
-        "companyName": "Danone",
-        "subbrands": [
-            "Activia",
-            "Light & Free",
-            "Oikos",
-            "Allpro",
-            "Danonino",
-            "Silk",
-            "Aqua",
-            "YoPRO",
-            "Actimel",
-            "Danette",
-            "International Delight",
-            "Evian"
-        ],
-        "explanation": "Danone invirti\u00f3 en la foodtech israel\u00ed Wilk el 2023, con una inversi\u00f3n de 3.5m.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Danone-57da0754fc6c410ab1a4501a703fb742",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "AXA": {
-        "companyName": "AXA",
-        "subbrands": [],
-        "explanation": "Una compa\u00f1\u00eda multinacional de seguros, debido a sus inversiones en ciertas empresas y bancos israel\u00edes que supuestamente est\u00e1n involucrados en actividades relacionadas con el conflicto entre Israel y Palestina. Los partidarios del boicot creen que las inversiones de AXA contribuyen indirectamente a violaciones del derecho internacional y abusos de los derechos humanos contra los palestinos",
-        "public_url": "https://vagabond-cold-3bd.notion.site/AXA-7edc5509c6034f60803c1553eeb70449",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Bankinvest": {
-        "companyName": "Bankinvest",
-        "subbrands": [],
-        "explanation": "Bankinvest tiene v\u00ednculos financieros con la ocupaci\u00f3n israel\u00ed de los territorios palestinos. Ofrece pr\u00e9stamos y garant\u00edas a empresas que realizan actividades en los territorios ocupados o invierte dinero en ellas.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Bankinvest-8b62b9e8c3bc4473925b667014861180",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Wix.com": {
-        "companyName": "Wix.com",
-        "subbrands": [],
-        "explanation": "Wix es una plataforma que permite a los usuarios crear sitios web mediante el uso de herramientas de arrastrar y soltar en l\u00ednea. Tiene una base de usuarios significativa en todo el mundo. Wix alent\u00f3 a sus empleados a crear contenido que apoyara la \"narrativa de Israel\" en el conflicto del pa\u00eds con militantes de Ham\u00e1s en Gaza, seg\u00fan muestran mensajes internos filtrados.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Wix-com-a8ee101a5f4e4fa2aca6d2121a0b4d77",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Actavis Generics": {
-        "companyName": "Actavis Generics",
-        "subbrands": [],
-        "explanation": "Actavis Generics, adquirida por Teva Pharmaceutical Industries en 2016 (Farmac\u00e9utica Israel\u00ed), era l\u00edder mundial en productos farmac\u00e9uticos gen\u00e9ricos. Esta integraci\u00f3n reforz\u00f3 la cartera de productos gen\u00e9ricos de Teva y su presencia en el mercado mundial.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Actavis-Generics-a9d1fc360da5457ebbb588bcd667e12e",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Citibank (Citigroup)": {
-        "companyName": "Citibank (Citigroup)",
-        "subbrands": [],
-        "explanation": "Se ha alegado de que Citibank mantiene relaciones financieras con empresas que participan en operaciones militares y de seguridad en territorios ocupados. Los activistas sostienen que estas relaciones apoyan indirectamente acciones asociadas con la ocupaci\u00f3n israel\u00ed.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Citibank-Citigroup-c8ccc71d74394f19a255065e6584ab0f",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "JPMorgan Chase": {
-        "companyName": "JPMorgan Chase",
-        "subbrands": [],
-        "explanation": "JPMorgan enfrenta acusaciones de tener importantes relaciones financieras y negocios con varias empresas e instituciones israel\u00edes. Los cr\u00edticos sostienen que algunas de estas entidades est\u00e1n involucradas directa o indirectamente en la ocupaci\u00f3n y la continuaci\u00f3n de las actividades de asentamiento en Cisjordania.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/JPMorgan-Chase-ce439695461c4e82841c4a18006b1db9",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Nykredit": {
-        "companyName": "Nykredit",
-        "subbrands": [],
-        "explanation": "Nykredit tiene v\u00ednculos financieros con la ocupaci\u00f3n israel\u00ed de los territorios palestinos. Ofrece pr\u00e9stamos y garant\u00edas a empresas que operan en territorios ocupados o invierte dinero en ellas.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Nykredit-d09c4b2f92824e12913fc6f85e15826f",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "BNP Paribas": {
-        "companyName": "BNP Paribas",
-        "subbrands": [],
-        "explanation": "Se ha acusado a BNP Paribas de mantener relaciones comerciales e inversiones con empresas implicadas en la construcci\u00f3n y sostenibilidad de los asentamientos israel\u00edes. Los cr\u00edticos sostienen que esos v\u00ednculos convierten al banco en c\u00f3mplice de los problemas jur\u00eddicos y de derechos humanos asociados a la ocupaci\u00f3n.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/BNP-Paribas-d2e58d9a5f71491f93b88f002492eaa1",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Danske Bank": {
-        "companyName": "Danske Bank",
-        "subbrands": [],
-        "explanation": "Desde 2018, el Danske Bank da pr\u00e9stamos a empresas vinculadas con los asentamientos por un valor de casi 16.000 millones de coronas danesas. Entre los pr\u00e9stamos se incluye la empresa alemana HeidelbergCement, que lleva a\u00f1os siendo criticada por extraer recursos naturales de tierras palestinas ocupadas en violaci\u00f3n del derecho internacional y por suministrar cemento para la expansi\u00f3n de los asentamientos ilegales israel\u00edes circundantes.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Danske-Bank-f02d42fa0f944f3588b8cf504d7327c6",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "eBay": {
-        "companyName": "eBay",
-        "subbrands": [],
-        "explanation": "eBay, una multinacional estadounidense de comercio electr\u00f3nico, tiene presencia en Israel principalmente a trav\u00e9s de la adquisici\u00f3n de empresas locales y el establecimiento de centros de desarrollo.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/eBay-0a0bf171b2c24254adcf014a663f4778",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Puma": {
-        "companyName": "Puma",
-        "subbrands": [],
-        "explanation": "Puma es c\u00f3mplice del apoyo al conflicto palestino-israel\u00ed debido a su patrocinio de la Asociaci\u00f3n de F\u00fatbol de Israel (IFA). Los cr\u00edticos se\u00f1alan que la IFA incluye equipos de asentamientos israel\u00edes ubicados en los territorios ocupados, situaci\u00f3n considerada ilegal seg\u00fan el derecho internacional. Puma ha anunciado que no renovar\u00e1 su patrocinio. El contrato de Puma con la Asociaci\u00f3n de F\u00fatbol de Israel expira en diciembre de 2024.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Puma-0a5f94bb9bfc440ea73ba883eb7e36f8",
-        "icons": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
-    },
-    "Monday.com": {
-        "companyName": "Monday.com",
-        "subbrands": [],
-        "explanation": "Monday.com",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Monday-com-19a70f28352141f38d9e83bbb2bb55d9",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Airbnb": {
-        "companyName": "Airbnb",
-        "subbrands": [],
-        "explanation": "Una empresa estadounidense que cotiza en bolsa y opera una plataforma de alquiler vacacional en l\u00ednea. La empresa ofrece anuncios en m\u00e1s de 220 pa\u00edses y regiones de todo el mundo. Airbnb ofrece anuncios de alojamiento en asentamientos ilegales en territorio palestino y sirio ocupados.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Airbnb-2468690663034fc9b3a9978e88acade4",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Mars": {
-        "companyName": "Mars",
-        "subbrands": [
-            "Twix",
-            "M&M's",
-            "Snickers",
-            "Pedigree",
-            "WHISKAS",
-            "ROYAL CANIN",
-            "Orbit",
-            "5 Gum",
-            "Skittles",
-            "Starburst",
-            "Maltesers",
-            "Bounty",
-            "Milky Way",
-            "Juicy Fruit",
-            "Mars",
-            "Altoids",
-            "Big Red",
-            "Doublemint",
-            "Eclipse"
-        ],
-        "explanation": "Mars ha invertido en Foster FoodTech Solutions, una foodtech Israel\u00ed en conjunto con Jerusalem Venture Partners, un veh\u00edculo israel\u00ed que se apodera de la palabra Jerusal\u00e9n con su nombre.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Mars-35b034de114245abb5e5de9e9a132b71",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Expedia Group": {
-        "companyName": "Expedia Group",
-        "subbrands": [
-            "Hotels.com",
-            "Trivago",
-            "Vrbo",
-            "Travelocity",
-            "Hotwire",
-            "Orbitz",
-            "ebookers",
-            "CheapTickets",
-            "Expedia Cruises",
-            "Wotif",
-            "CarRentals",
-            "Egencia"
-        ],
-        "explanation": "Expedia Group Inc. es una empresa de viajes online. A trav\u00e9s de sus sitios web de b\u00fasqueda y reserva de viajes, ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Expedia-Group-5ef0fa662cdd4b8689e3e26cbe34dc6a",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Fiverr": {
-        "companyName": "Fiverr",
-        "subbrands": [],
-        "explanation": "Fiverr, un mercado en l\u00ednea para servicios freelance, se fund\u00f3 en Israel y desde entonces ha crecido a nivel mundial. Conecta a empresas con trabajadores freelance que ofrecen servicios digitales en diversas categor\u00edas.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Fiverr-7e8aeaacab8243bc974b26e1f8fac6d5",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "TripAdvisor": {
-        "companyName": "TripAdvisor",
-        "subbrands": [],
-        "explanation": "A trav\u00e9s de sus sitios web de reserva de viajes, TripAdvisor anuncia hoteles, complejos tur\u00edsticos, restaurantes y casas de hu\u00e9spedes en Cisjordania ocupada, Jerusal\u00e9n Oriental ocupada y el Gol\u00e1n sirio ocupado.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/TripAdvisor-a22a3903598a4724aa0224cf54ab91dc",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Mondelez": {
-        "companyName": "Mondelez",
-        "subbrands": [
-            "Milka",
-            "Toblerone",
-            "Philadelphia",
-            "Oreo"
-        ],
-        "explanation": "Mondelez, invirti\u00f3 en The Kitchen Hub, una foodtech israel\u00ed.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Mondelez-abdbdd601d9f43e89837d31054484e3e",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Tabnine": {
-        "companyName": "Tabnine",
-        "subbrands": [],
-        "explanation": "Tabnine es una herramienta de finalizaci\u00f3n de c\u00f3digo impulsada por IA desarrollada en Israel que mejora la eficiencia de la codificaci\u00f3n en varios lenguajes de programaci\u00f3n. Est\u00e1 dise\u00f1ada para optimizar el proceso de desarrollo de software al integrarse con m\u00faltiples editores de c\u00f3digo.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Tabnine-beced5473bac4fa6a47434a86e75d5f6",
+        "explanation": "Qualcomm opera instalaciones de investigaci\u00f3n y desarrollo en Israel centradas en tecnolog\u00edas de comunicaci\u00f3n inal\u00e1mbrica.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Qualcomm-e6bbe3085a344a4bbd655b13cb876e18",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Amazon": {
@@ -678,156 +856,18 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/ZARA-ec10d4d947b84735bd6b90e1bd05c5c0",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Booking Holdings (Booking.com)": {
-        "companyName": "Booking Holdings (Booking.com)",
+    "Volvo Group": {
+        "companyName": "Volvo Group",
         "subbrands": [],
-        "explanation": "A trav\u00e9s de su sitio web, ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Booking-Holdings-Booking-com-fd32d18216e3455fa09c82d05d604379",
+        "explanation": "Volvo Group suministra maquinaria pesada para la demolici\u00f3n de viviendas palestinas en Cisjordania ocupada y Jerusal\u00e9n Oriental, la construcci\u00f3n de asentamientos israel\u00edes y la construcci\u00f3n del Muro de Separaci\u00f3n.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Volvo-Group-ecd1901b02fe4eefb534fba9e6cfc2d0",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "McDonalds": {
-        "companyName": "McDonalds",
+    "Danske Bank": {
+        "companyName": "Danske Bank",
         "subbrands": [],
-        "explanation": "Uno de sus mayores inversores dona grandes cantidades a diferentes causas en Israel. McDonald's tambi\u00e9n proporcion\u00f3 comidas gratuitas a las tropas israel\u00edes en medio de la guerra con Ham\u00e1s. McDonald's de otros pa\u00edses de Oriente Medio tambi\u00e9n ha donado dinero para ayudar a los civiles en Gaza.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/McDonalds-047ad36241d04795a18ad40d52637d9e",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "SodaStream": {
-        "companyName": "SodaStream",
-        "subbrands": [],
-        "explanation": "Una empresa manufacturera israel\u00ed conocida por su dispositivo para producir agua carbonatada. Fue adquirida por PepsiCo, pero sus operaciones principales siguen estando en Israel, en territorios en disputa.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/SodaStream-0a594a485c1242b89865c1a1b841b087",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "PepsiCo": {
-        "companyName": "PepsiCo",
-        "subbrands": [
-            "Mountain Dew",
-            "7 Up",
-            "Mirinda",
-            "Cheetos",
-            "Gatorade",
-            "Tropicana",
-            "Lipton Iced Teas",
-            "Rockstar Energy",
-            "7up",
-            "Lays",
-            "Doritos",
-            "Evercrisp",
-            "Lay\u2019s",
-            "Lay's",
-            "Pepsi",
-            "Pepsi Zero"
-        ],
-        "explanation": "En 2018, PepsiCo adquiri\u00f3 SodaStream por 3.200 millones de d\u00f3lares, una empresa con sede en Israel. Esta adquisici\u00f3n ha provocado reacciones dada la ubicaci\u00f3n de algunas de las operaciones de SodaStream en territorios en disputa. PepsiCo tambi\u00e9n tiene una empresa conjunta con Sabra.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/PepsiCo-18de7fd10dd541f0896ea23b46d79822",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Tara": {
-        "companyName": "Tara",
-        "subbrands": [],
-        "explanation": "Una empresa l\u00e1ctea m\u00e1s peque\u00f1a en comparaci\u00f3n con Tnuva, pero que a\u00fan tiene una presencia significativa en el mercado israel\u00ed. Fue adquirida por Coca Cola en 1997.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Tara-31f76779ba1944f682214113d98bcfdb",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Tempo Beverages": {
-        "companyName": "Tempo Beverages",
-        "subbrands": [],
-        "explanation": "Produce una variedad de bebidas alcoh\u00f3licas y no alcoh\u00f3licas. Tiene una presencia significativa en el mercado de bebidas israel\u00ed.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Tempo-Beverages-7c8e4def4d5943ba841488777bc3fc7d",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Tnuva": {
-        "companyName": "Tnuva",
-        "subbrands": [],
-        "explanation": "Tnuva es el mayor fabricante de alimentos de Israel; sus ventas representan el 70% del mercado l\u00e1cteo del pa\u00eds, adem\u00e1s de las ventas de carne, huevos y alimentos envasados.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Tnuva-baa9aad233cd4842b28e302cf6d3be4e",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Prigat": {
-        "companyName": "Prigat",
-        "subbrands": [],
-        "explanation": "Produce jugos y productos derivados, propiedad de Gan Shmuel Foods. Tiene operaciones en Israel y exporta a varios pa\u00edses.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Prigat-bb3d0a9386fc411298641929ac9270e8",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Sabra": {
-        "companyName": "Sabra",
-        "subbrands": [],
-        "explanation": "Sabra, una empresa conocida por su hummus y otros productos alimenticios, es en parte propiedad de Strauss Group, una corporaci\u00f3n israel\u00ed. Strauss Group se dice que apoya a las Fuerzas de Defensa de Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Sabra-c67e59e60d674f0a88348c4938ef93b0",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Strauss Group": {
-        "companyName": "Strauss Group",
-        "subbrands": [],
-        "explanation": "Una empresa alimentaria multinacional israel\u00ed, importante en el sector de productos l\u00e1cteos y snacks, con una variedad de asociaciones y cooperaciones en Israel y en todo el mundo.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Strauss-Group-e1fc153d790944e284f999c83159cf65",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Starbucks": {
-        "companyName": "Starbucks",
-        "subbrands": [],
-        "explanation": "Howard Shultz es el mayor propietario privado de acciones de Starbucks y es un sionista ac\u00e9rrimo que invierte fuertemente en la econom\u00eda de Israel, incluida una reciente inversi\u00f3n de 1.700 millones de d\u00f3lares en la startup de ciberseguridad Wiz.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Starbucks-fd817630ca244af98ac4fbde3869f044",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Oracle": {
-        "companyName": "Oracle",
-        "subbrands": [],
-        "explanation": "Adquiri\u00f3 varias empresas israel\u00edes y tiene presencia en Israel principalmente a trav\u00e9s de ventas y servicios de soporte. Oracle don\u00f3 dinero a los empleados israel\u00edes despu\u00e9s de que comenz\u00f3 la guerra, con 10.000 shekels israel\u00edes adicionales para los empleados que sirven en las Fuerzas de Defensa de Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Oracle-13be36678de94ee7ac8568984c57c421",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Microsoft": {
-        "companyName": "Microsoft",
-        "subbrands": [],
-        "explanation": "Microsoft adquiri\u00f3 varias empresas emergentes israel\u00edes y tiene una gran presencia en I+D en el pa\u00eds. La empresa tiene un historial de profundo compromiso con la industria de alta tecnolog\u00eda israel\u00ed y estrechos v\u00ednculos con el ej\u00e9rcito israel\u00ed. ",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Microsoft-2b31e390ce9244cf82bba51f137aceb1",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "NVIDIA": {
-        "companyName": "NVIDIA",
-        "subbrands": [],
-        "explanation": "Las operaciones de NVIDIA en Israel se centran principalmente en tecnolog\u00edas de inteligencia artificial y aprendizaje profundo. NVIDIA tambi\u00e9n adquiri\u00f3 la empresa israel\u00ed Mellanox Technologies, que es destacada en productos de redes. Recientemente, Nvidia recaud\u00f3 10 millones de d\u00f3lares para organizaciones ben\u00e9ficas israel\u00edes que ayudan a civiles afectados por la guerra, don\u00f3 computadoras a evacuados del norte y el sur de Israel y proporcion\u00f3 comidas calientes desde su oficina de Yokneam.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/NVIDIA-5ddee944eb834e5296df67c565564669",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Intel": {
-        "companyName": "Intel",
-        "subbrands": [
-            "McAfee"
-        ],
-        "explanation": "Tiene m\u00faltiples instalaciones en Israel (11.700 empleados) y ha desarrollado varios de sus chips en sus centros de I+D israel\u00edes. La planta Fab 28 de Intel que produce chips de 7 nm tiene su sede en Kiryat Gat, fundada justo al oeste de las ruinas de la aldea palestina de Irak al-Manshiyya. El 26 de diciembre de 2023, Intel anunci\u00f3 su mayor inversi\u00f3n hasta la fecha: un plan de 25.000 millones de d\u00f3lares para construir una nueva f\u00e1brica de chips en Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Intel-6edf70289e624a61becea1f1fcabd34f",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Achva": {
-        "companyName": "Achva",
-        "subbrands": [],
-        "explanation": "Una empresa israel\u00ed de alimentaci\u00f3n especializada en tahini, halva y otros productos similares. Sus productos se distribuyen tanto a nivel nacional como internacional.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Achva-953771815eac42f0858e5263c6d07608",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Carrefour": {
-        "companyName": "Carrefour",
-        "subbrands": [],
-        "explanation": "El 8 de marzo de 2022, el Grupo Carrefour anunci\u00f3 un acuerdo de franquicia en Israel, en el que se asociar\u00e1 con Electra Consumer Products y su filial, Yenot Bitan. Estas entidades participan en actividades dentro de los pol\u00e9micos asentamientos israel\u00edes. Esto convierte a Carrefour en c\u00f3mplice de los cr\u00edmenes de guerra cometidos por el r\u00e9gimen israel\u00ed de ocupaci\u00f3n, colonialismo y apartheid.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Carrefour-aee1425e86bb4ba381d40a121666a084",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Siemens": {
-        "companyName": "Siemens",
-        "subbrands": [],
-        "explanation": "El equipo de Who Profits document\u00f3 los sistemas de control de tr\u00e1fico de Siemens en las carreteras 5 y 443 de la Cisjordania ocupada, como parte de un sistema vial israel\u00ed por el que los palestinos tienen prohibido circular. En marzo de 2018, Siemens y la empresa estatal Israel Railways firmaron un contrato por 917 millones de d\u00f3lares para la entrega de 60 trenes regionales Desiro HC, con un total de 330 vagones el\u00e9ctricos, durante un per\u00edodo de diez a\u00f1os.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Siemens-d6426b7a4b004773bf9bde6631ef7178",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Qualcomm": {
-        "companyName": "Qualcomm",
-        "subbrands": [],
-        "explanation": "Qualcomm opera instalaciones de investigaci\u00f3n y desarrollo en Israel centradas en tecnolog\u00edas de comunicaci\u00f3n inal\u00e1mbrica.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Qualcomm-e6bbe3085a344a4bbd655b13cb876e18",
+        "explanation": "Desde 2018, el Danske Bank da pr\u00e9stamos a empresas vinculadas con los asentamientos por un valor de casi 16.000 millones de coronas danesas. Entre los pr\u00e9stamos se incluye la empresa alemana HeidelbergCement, que lleva a\u00f1os siendo criticada por extraer recursos naturales de tierras palestinas ocupadas en violaci\u00f3n del derecho internacional y por suministrar cemento para la expansi\u00f3n de los asentamientos ilegales israel\u00edes circundantes.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Danske-Bank-f02d42fa0f944f3588b8cf504d7327c6",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
     "Micron": {
@@ -837,106 +877,66 @@
         "public_url": "https://vagabond-cold-3bd.notion.site/Micron-f51b421efce3478ea9b172b7d0f1e92c",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "General Electric": {
-        "companyName": "General Electric",
-        "subbrands": [],
-        "explanation": "Un conglomerado multinacional con sede en EE. UU. que cotiza en bolsa y que opera en los campos de la energ\u00eda, las energ\u00edas renovables, la aviaci\u00f3n y la atenci\u00f3n sanitaria. La empresa proporciona turbinas e\u00f3licas y servicios de mantenimiento a dos grandes proyectos de energ\u00eda e\u00f3lica en el Gol\u00e1n sirio ocupado, \u201cEmek Habacha\u201d y \u201cRuach Beresheet\u201d, los mayores proyectos de energ\u00eda renovable en Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/General-Electric-1b5c83e2c2ee45cdb91c8d819b6d02f5",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "HP": {
-        "companyName": "HP",
+    "Delta Galil": {
+        "companyName": "Delta Galil",
         "subbrands": [
-            "HP Wolf Security",
-            "HyperX",
-            "OMEN",
-            "Z"
+            "Adidas",
+            "Calvin Klein",
+            "Columbia",
+            "Disney",
+            "Polo Ralph Lauren",
+            "Tommy Hilfiger",
+            "Converse",
+            "ELLE",
+            "Adidas Performance",
+            "Adidas Sportswear",
+            "Adidas Originals",
+            "Adidas Outdoor"
         ],
-        "explanation": "HP tiene centros de I+D en Kiryat Gat que contribuyen a las tecnolog\u00edas de impresi\u00f3n e inform\u00e1tica. HP era el \u00fanico proveedor de servidores Itanium para el Sistema Aviv, que es la Administraci\u00f3n Israel\u00ed de Pasos Fronterizos, Poblaci\u00f3n e Inmigraci\u00f3n.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/HP-61232349efbb4628bec45b7dfa4b999a",
+        "explanation": "Delta Galil es una empresa textil israel\u00ed que cotiza en la bolsa de Tel Aviv y produce bajo licencia l\u00edneas de productos de distintas marcas como Adidas, Calvin Klein, Columbia, Disney, Polo Ralph Lauren, Tommy Hilfiger, Converse y ELLE.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Delta-Galil-f9225a15d78b45e8b2d46df38ca462dc",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Clinique": {
-        "companyName": "Clinique",
+    "Toyota Motor Corporation": {
+        "companyName": "Toyota Motor Corporation",
         "subbrands": [],
-        "explanation": "Clinique es propiedad de Estee Lauder, cuyos propietarios, especialmente Ronald Lauder, tienen opiniones sionistas extremistas y apoyan financiera y pol\u00edticamente la ocupaci\u00f3n israel\u00ed de tierras palestinas. Adem\u00e1s, Clinique tiene tiendas a lo largo de todo Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Clinique-6ef2270a80484082856529810de133c9",
+        "explanation": "Los veh\u00edculos Toyota Hilux son utilizados por el ej\u00e9rcito y la polic\u00eda fronteriza israel\u00edes para proteger asentamientos ilegales y bases militares a lo largo de Cisjordania, para reprimir manifestantes palestinos y para llevar a cabo demoliciones de viviendas.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Toyota-Motor-Corporation-f943c812853f49c787e4356b073a978f",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     },
-    "Google (Alphabet)": {
-        "companyName": "Google (Alphabet)",
+    "Booking Holdings (Booking.com)": {
+        "companyName": "Booking Holdings (Booking.com)",
+        "subbrands": [],
+        "explanation": "A trav\u00e9s de su sitio web, ",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Booking-Holdings-Booking-com-fd32d18216e3455fa09c82d05d604379",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Starbucks": {
+        "companyName": "Starbucks",
+        "subbrands": [],
+        "explanation": "Howard Shultz es el mayor propietario privado de acciones de Starbucks y es un sionista ac\u00e9rrimo que invierte fuertemente en la econom\u00eda de Israel, incluida una reciente inversi\u00f3n de 1.700 millones de d\u00f3lares en la startup de ciberseguridad Wiz.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Starbucks-fd817630ca244af98ac4fbde3869f044",
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
+    },
+    "Coca Cola": {
+        "companyName": "Coca Cola",
         "subbrands": [
-            "Chrome",
-            "DeepMind",
-            "YouTube",
-            "Waymo"
-        ],
-        "explanation": "Google ha establecido centros de I+D en Israel, centr\u00e1ndose principalmente en algoritmos de b\u00fasqueda, tecnolog\u00edas publicitarias y seguridad. Adem\u00e1s, ha adquirido nuevas empresas israel\u00edes, incluida Waze. En colaboraci\u00f3n con Amazon, Google lanz\u00f3 el Proyecto Nimbus en 2021 para proporcionar servicios en la nube al gobierno y al ej\u00e9rcito israel\u00edes. Si bien este proyecto tiene como objetivo mejorar la infraestructura tecnol\u00f3gica de Israel, tambi\u00e9n ha enfrentado cr\u00edticas por ayudar a la vigilancia y afectar los derechos de los palestinos.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Google-Alphabet-930d950911c34402ae95eb81091bf8bf",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Cisco": {
-        "companyName": "Cisco",
-        "subbrands": [],
-        "explanation": "La empresa integra plataformas en redes, seguridad, colaboraci\u00f3n, aplicaciones y la nube. A trav\u00e9s de sus filiales israel\u00edes de propiedad total, Cisco Systems tiene una amplia base de complicidad con la econom\u00eda de ocupaci\u00f3n de Israel, predominantemente a trav\u00e9s de la prestaci\u00f3n de servicios al ej\u00e9rcito israel\u00ed.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Cisco-9d4c6a8e29b340979b795710cf5fcf80",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "IBM": {
-        "companyName": "IBM",
-        "subbrands": [],
-        "explanation": "Tiene una fuerte presencia de I+D en Israel que se centra en tecnolog\u00edas de nube, inteligencia artificial y ciberseguridad y ha adquirido varias empresas de tecnolog\u00eda israel\u00edes.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/IBM-b08c0044eeb24deabc8b14b922643362",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Chanel": {
-        "companyName": "Chanel",
-        "subbrands": [],
-        "explanation": "Alain Wertheimer, que conden\u00f3 el ataque a Israel pero guard\u00f3 silencio sobre los ataques a Gaza, tambi\u00e9n prometi\u00f3 4 millones de d\u00f3lares en nombre de Chanel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Chanel-b520a24d0ba7415a99c59980a61ca13d",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Dell": {
-        "companyName": "Dell",
-        "subbrands": [],
-        "explanation": "Los productos de Dell incluyen computadoras personales y servidores. En 2023, Dell Technologies gan\u00f3 la licitaci\u00f3n de servidores del Ministerio de Defensa de Israel, que se considera la licitaci\u00f3n de servidores m\u00e1s grande en Israel hasta el momento. El alcance es de 150 millones de d\u00f3lares por un per\u00edodo de dos a\u00f1os, durante los cuales Dell proporcionar\u00e1 servidores y mantenimiento al ej\u00e9rcito israel\u00ed y al Ministerio de Defensa israel\u00ed (IMOD). Se sabe que la Fundaci\u00f3n Michael & Susan Dell, establecida por los fundadores de Dell, brinda apoyo directo a Israel.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Dell-d2b2456fa808431ba491f61d6cd07426",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Procter & Gamble": {
-        "companyName": "Procter & Gamble",
-        "subbrands": [
-            "Ariel",
-            "Braun",
-            "Gillette",
-            "Gillete Venus",
-            "Head & Shoulders",
-            "Head and Shoulders",
-            "Herbal Essences",
-            "Pantene",
-            "Old Spice",
-            "Oral-B",
-            "Pampers",
-            "Tide",
-            "Procter and Gamble",
+            "Coca-Cola",
+            "Sprite",
+            "Fanta",
+            "Aquarius",
+            "vitaminwater",
+            "powerade",
+            "Coca Cola Light",
+            "Coca-Cola Light",
+            "Coca Cola Zero",
+            "Coca-Cola zero",
+            "Sprite Zero",
+            "Fanta Zero",
             ""
         ],
-        "explanation": "Procter & Gamble abri\u00f3 un centro de I+D en Tel Aviv, Palestina ocupada, en el que invierte 2.000 millones de d\u00f3lares al a\u00f1o.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Procter-Gamble-4b01d23286f346d8b614bada36e65fcd",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Adidas": {
-        "companyName": "Adidas",
-        "subbrands": [],
-        "explanation": "Adidas utiliza al fabricante israel\u00ed Delta Galil para fabricar su gama de ropa interior.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Adidas-5895376d38ce4ecd91119d92f5e56fc2",
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
-    },
-    "Bath & Body Works": {
-        "companyName": "Bath & Body Works",
-        "subbrands": [],
-        "explanation": "Les Wexner, propietario de L Brands, la empresa matriz de Bath&Body Works, es un aliado incondicional de Israel y socio comercial desde hace mucho tiempo de Jeffrey Epstein, el traficante de ni\u00f1os condenado.",
-        "public_url": "https://vagabond-cold-3bd.notion.site/Bath-Body-Works-9699693d5cbf453c8cd8ff3e9427482d",
+        "explanation": "Coca Cola Company tiene como franquicia de forma exclusiva en Israel a The Central Beverage Company Ltd., tambi\u00e9n conocido como Coca-Cola Israel. Coca-Cola Israel opera un centro de distribuci\u00f3n regional local y refrigeradores industriales en la zona industrial de Atarot en Palestina ocupada.",
+        "public_url": "https://vagabond-cold-3bd.notion.site/Coca-Cola-fe189a05489f4e9f8f0dc7389be58d4a",
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab"
     }
 }
