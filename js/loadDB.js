@@ -12,9 +12,25 @@ const renderTable = (brandsDB) => {
     for (const brand of brandsDB) {
         const brandDiv = document.createElement('div')
         brandDiv.classList.add('brand-div')
+        
+        // Create header with brand name and optional BDS badge
+        const brandHeader = document.createElement('div')
+        brandHeader.classList.add('brand-header')
+        
         const brandName = document.createElement('h3')
         brandName.textContent = brand.companyName
-        brandDiv.appendChild(brandName)
+        brandHeader.appendChild(brandName)
+        
+        // Add BDS badge if is_bds is true
+        if (brand.is_bds === true) {
+            const bdsBadge = document.createElement('span')
+            bdsBadge.classList.add('bds-badge')
+            bdsBadge.textContent = 'BDS Oficial'
+            bdsBadge.title = 'Esta marca está en la lista oficial de BDS'
+            brandHeader.appendChild(bdsBadge)
+        }
+        
+        brandDiv.appendChild(brandHeader)
         const explanation = document.createElement('p')
         explanation.textContent = brand.explanation
         brandDiv.appendChild(explanation)

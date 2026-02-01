@@ -85,6 +85,31 @@ input[type="email"] {
 
 .brand-div h3 {
     margin: 10px;
+    display: inline-block;
+}
+
+/* Brand header with BDS badge */
+.brand-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* BDS Badge styles */
+.bds-badge {
+    display: inline-block;
+    background-color: #dc2626;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);
+    cursor: help;
+    vertical-align: middle;
 }
 
 .brand-div h4 {
