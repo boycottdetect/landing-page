@@ -1,4 +1,13 @@
 {
+    "Gwyneth Paltrow": {
+        "companyName": "Gwyneth Paltrow",
+        "subbrands": [],
+        "explanation": "Actriz Estadounidense de ascendencia ",
+        "explanation_en": "Actriz Estadounidense de ascendencia ",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
     "Papa John\u2019s ": {
         "companyName": "Papa John\u2019s ",
         "subbrands": [],
@@ -36,6 +45,17 @@
         "public_url": null,
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
         "is_bds": true
+    },
+    "Goop": {
+        "companyName": "Goop",
+        "subbrands": [
+            "goop Beauty, goop Wellness, goop Fragrance, GWYN"
+        ],
+        "explanation": "Marca que pertenece a la Actriz Gwyneth Paltrow. En Junio del 2026 fue el rostro de la campa\u00f1a de unos departamentos de lujo ubicados en Herzliya, el primer asentamiento sionista que se establecio en Palestina. ",
+        "explanation_en": "Marca que pertenece a la Actriz Gwyneth Paltrow. En Junio del 2026 fue el rostro de la campa\u00f1a de unos departamentos de lujo ubicados en Herzliya, el primer asentamiento sionista que se establecio en Palestina. ",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
     },
     "Remax": {
         "companyName": "Remax",
@@ -1102,29 +1122,6 @@
         "subbrands": [],
         "explanation": "Una de las f\u00e1bricas de Micron tiene su sede en Kiryat Gat, situada justo al oeste de las ruinas de un antiguo pueblo palestino.",
         "explanation_en": "One of Micron's factories is located in Kiryat Gat, situated just west of the ruins of an ancient Palestinian village.",
-        "public_url": null,
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
-        "is_bds": false
-    },
-    "General Electric": {
-        "companyName": "General Electric",
-        "subbrands": [],
-        "explanation": "Un conglomerado multinacional con sede en EE. UU. que cotiza en bolsa y que opera en los campos de la energ\u00eda, las energ\u00edas renovables, la aviaci\u00f3n y la atenci\u00f3n sanitaria. La empresa proporciona turbinas e\u00f3licas y servicios de mantenimiento a dos grandes proyectos de energ\u00eda e\u00f3lica en el Gol\u00e1n sirio ocupado, \u201cEmek Habacha\u201d y \u201cRuach Beresheet\u201d, los mayores proyectos de energ\u00eda renovable en Israel.",
-        "explanation_en": "A multinational conglomerate based in the U.S. that is publicly traded and operates in the fields of energy, renewable energy, aviation, and healthcare. The company provides wind turbines and maintenance services to two major wind energy projects in the occupied Syrian Golan, \"Emek Habacha\" and \"Ruach Beresheet,\" the largest renewable energy projects in Israel.",
-        "public_url": null,
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
-        "is_bds": false
-    },
-    "HP": {
-        "companyName": "HP",
-        "subbrands": [
-            "HP Wolf Security",
-            "HyperX",
-            "OMEN",
-            "Z"
-        ],
-        "explanation": "HP tiene centros de I+D en Kiryat Gat que contribuyen a las tecnolog\u00edas de impresi\u00f3n e inform\u00e1tica. HP era el \u00fanico proveedor de servidores Itanium para el Sistema Aviv, que es la Administraci\u00f3n Israel\u00ed de Pasos Fronterizos, Poblaci\u00f3n e Inmigraci\u00f3n.",
-        "explanation_en": "HP has R&D centers in Kiryat Gat that contribute to printing and computing technologies. HP was the only supplier of Itanium servers for the Aviv System, which is the Israeli Border Crossings, Population and Immigration Administration.",
         "public_url": null,
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
         "is_bds": false
