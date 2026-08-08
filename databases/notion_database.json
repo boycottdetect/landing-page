@@ -1,4 +1,13 @@
 {
+    "Rare Beauty ": {
+        "companyName": "Rare Beauty ",
+        "subbrands": [],
+        "explanation": "Marca de cosm\u00e9ticos y maquillajes de Selena G\u00f3mez. Desde Agosto del 2026, en medios de un genocidio activo en Gaza y criticas internacional a las marcas que tienen v\u00e9nculos econ\u00f3micos con Isr43l, decide empezar a venderse y distribuirse en territorio ocupado. ",
+        "explanation_en": "Marca de cosm\u00e9ticos y maquillajes de Selena G\u00f3mez. Desde Agosto del 2026, en medios de un genocidio activo en Gaza y criticas internacional a las marcas que tienen v\u00e9nculos econ\u00f3micos con Isr43l, decide empezar a venderse y distribuirse en territorio ocupado. ",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
     "Gwyneth Paltrow": {
         "companyName": "Gwyneth Paltrow",
         "subbrands": [],
@@ -235,7 +244,9 @@
             "Milo",
             "Chiquitin",
             "Nestl\u00e9",
-            "Chokita"
+            "Chokita",
+            "Capri",
+            "Imperial"
         ],
         "explanation": "Nestl\u00e9 Israel es propietaria de Osem, una empresa israel\u00ed de fabricaci\u00f3n de alimentos que opera en asentamientos ilegales, contribuyendo a unos 34.000 millones de d\u00f3lares en ingresos en 2023. Nestl\u00e9 tambi\u00e9n invirti\u00f3 m\u00e1s de 10 millones de d\u00f3lares en f\u00e1bricas en territorios ocupados. Los v\u00ednculos de Nestl\u00e9 con el ej\u00e9rcito israel\u00ed incluyen el suministro de alimentos por m\u00e1s de 5 millones de d\u00f3lares anuales, lo que apoya indirectamente las operaciones militares contra los palestinos.",
         "explanation_en": "Nestl\u00e9 Israel is the owner of Osem, an Israeli food manufacturing company that operates in illegal settlements, contributing to around 34 billion dollars in revenue in 2023. Nestl\u00e9 also invested more than 10 million dollars in factories in occupied territories. Nestl\u00e9's links to the Israeli military include supplying food worth over 5 million dollars annually, indirectly supporting military operations against Palestinians.",
@@ -1098,32 +1109,5 @@
         "public_url": null,
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
         "is_bds": true
-    },
-    "Siemens": {
-        "companyName": "Siemens",
-        "subbrands": [],
-        "explanation": "El equipo de Who Profits document\u00f3 los sistemas de control de tr\u00e1fico de Siemens en las carreteras 5 y 443 de la Cisjordania ocupada, como parte de un sistema vial israel\u00ed por el que los palestinos tienen prohibido circular. En marzo de 2018, Siemens y la empresa estatal Israel Railways firmaron un contrato por 917 millones de d\u00f3lares para la entrega de 60 trenes regionales Desiro HC, con un total de 330 vagones el\u00e9ctricos, durante un per\u00edodo de diez a\u00f1os.",
-        "explanation_en": "The Who Profits team documented Siemens traffic control systems on Highways 5 and 443 in the occupied West Bank, as part of an Israeli road system on which Palestinians are prohibited from traveling. In March 2018, Siemens and state-owned Israel Railways signed a $917 million contract for the delivery of 60 Desiro HC regional trains, with a total of 330 electric carriages, over a ten-year period.",
-        "public_url": null,
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
-        "is_bds": true
-    },
-    "Qualcomm": {
-        "companyName": "Qualcomm",
-        "subbrands": [],
-        "explanation": "Qualcomm opera instalaciones de investigaci\u00f3n y desarrollo en Israel centradas en tecnolog\u00edas de comunicaci\u00f3n inal\u00e1mbrica.",
-        "explanation_en": "Qualcomm operates research and development facilities in Israel focused on wireless communication technologies.",
-        "public_url": null,
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
-        "is_bds": false
-    },
-    "Micron": {
-        "companyName": "Micron",
-        "subbrands": [],
-        "explanation": "Una de las f\u00e1bricas de Micron tiene su sede en Kiryat Gat, situada justo al oeste de las ruinas de un antiguo pueblo palestino.",
-        "explanation_en": "One of Micron's factories is located in Kiryat Gat, situated just west of the ruins of an ancient Palestinian village.",
-        "public_url": null,
-        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
-        "is_bds": false
     }
 }
