@@ -22,7 +22,6 @@
         document.addEventListener("DOMContentLoaded", function() {
             var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
             var isMobile = /Mobi|Android/i.test(navigator.userAgent);
-            console.log("DOMAIN IS: ", window.location.hostname)
             var isDev = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
             if (isChrome && !isMobile && !isDev) {
                 window.location.href = "https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih";
