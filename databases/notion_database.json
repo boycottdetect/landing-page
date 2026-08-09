@@ -1109,5 +1109,156 @@
         "public_url": null,
         "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
         "is_bds": true
+    },
+    "Siemens": {
+        "companyName": "Siemens",
+        "subbrands": [],
+        "explanation": "El equipo de Who Profits document\u00f3 los sistemas de control de tr\u00e1fico de Siemens en las carreteras 5 y 443 de la Cisjordania ocupada, como parte de un sistema vial israel\u00ed por el que los palestinos tienen prohibido circular. En marzo de 2018, Siemens y la empresa estatal Israel Railways firmaron un contrato por 917 millones de d\u00f3lares para la entrega de 60 trenes regionales Desiro HC, con un total de 330 vagones el\u00e9ctricos, durante un per\u00edodo de diez a\u00f1os.",
+        "explanation_en": "The Who Profits team documented Siemens traffic control systems on Highways 5 and 443 in the occupied West Bank, as part of an Israeli road system on which Palestinians are prohibited from traveling. In March 2018, Siemens and state-owned Israel Railways signed a $917 million contract for the delivery of 60 Desiro HC regional trains, with a total of 330 electric carriages, over a ten-year period.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": true
+    },
+    "Qualcomm": {
+        "companyName": "Qualcomm",
+        "subbrands": [],
+        "explanation": "Qualcomm opera instalaciones de investigaci\u00f3n y desarrollo en Israel centradas en tecnolog\u00edas de comunicaci\u00f3n inal\u00e1mbrica.",
+        "explanation_en": "Qualcomm operates research and development facilities in Israel focused on wireless communication technologies.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Micron": {
+        "companyName": "Micron",
+        "subbrands": [],
+        "explanation": "Una de las f\u00e1bricas de Micron tiene su sede en Kiryat Gat, situada justo al oeste de las ruinas de un antiguo pueblo palestino.",
+        "explanation_en": "One of Micron's factories is located in Kiryat Gat, situated just west of the ruins of an ancient Palestinian village.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "General Electric": {
+        "companyName": "General Electric",
+        "subbrands": [],
+        "explanation": "Un conglomerado multinacional con sede en EE. UU. que cotiza en bolsa y que opera en los campos de la energ\u00eda, las energ\u00edas renovables, la aviaci\u00f3n y la atenci\u00f3n sanitaria. La empresa proporciona turbinas e\u00f3licas y servicios de mantenimiento a dos grandes proyectos de energ\u00eda e\u00f3lica en el Gol\u00e1n sirio ocupado, \u201cEmek Habacha\u201d y \u201cRuach Beresheet\u201d, los mayores proyectos de energ\u00eda renovable en Israel.",
+        "explanation_en": "A multinational conglomerate based in the U.S. that is publicly traded and operates in the fields of energy, renewable energy, aviation, and healthcare. The company provides wind turbines and maintenance services to two major wind energy projects in the occupied Syrian Golan, \"Emek Habacha\" and \"Ruach Beresheet,\" the largest renewable energy projects in Israel.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "HP": {
+        "companyName": "HP",
+        "subbrands": [
+            "HP Wolf Security",
+            "HyperX",
+            "OMEN",
+            "Z"
+        ],
+        "explanation": "HP tiene centros de I+D en Kiryat Gat que contribuyen a las tecnolog\u00edas de impresi\u00f3n e inform\u00e1tica. HP era el \u00fanico proveedor de servidores Itanium para el Sistema Aviv, que es la Administraci\u00f3n Israel\u00ed de Pasos Fronterizos, Poblaci\u00f3n e Inmigraci\u00f3n.",
+        "explanation_en": "HP has R&D centers in Kiryat Gat that contribute to printing and computing technologies. HP was the only supplier of Itanium servers for the Aviv System, which is the Israeli Border Crossings, Population and Immigration Administration.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Clinique": {
+        "companyName": "Clinique",
+        "subbrands": [],
+        "explanation": "Clinique es propiedad de Estee Lauder, cuyos propietarios, especialmente Ronald Lauder, tienen opiniones sionistas extremistas y apoyan financiera y pol\u00edticamente la ocupaci\u00f3n israel\u00ed de tierras palestinas. Adem\u00e1s, Clinique tiene tiendas a lo largo de todo Israel.",
+        "explanation_en": "Clinique is owned by Estee Lauder, whose owners, especially Ronald Lauder, hold extremist Zionist views and financially and politically support the Israeli occupation of Palestinian lands. Additionally, Clinique has stores throughout Israel.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Google (Alphabet)": {
+        "companyName": "Google (Alphabet)",
+        "subbrands": [
+            "Chrome",
+            "DeepMind",
+            "YouTube",
+            "Waymo"
+        ],
+        "explanation": "Google ha establecido centros de I+D en Israel, centr\u00e1ndose principalmente en algoritmos de b\u00fasqueda, tecnolog\u00edas publicitarias y seguridad. Adem\u00e1s, ha adquirido nuevas empresas israel\u00edes, incluida Waze. En colaboraci\u00f3n con Amazon, Google lanz\u00f3 el Proyecto Nimbus en 2021 para proporcionar servicios en la nube al gobierno y al ej\u00e9rcito israel\u00edes. Si bien este proyecto tiene como objetivo mejorar la infraestructura tecnol\u00f3gica de Israel, tambi\u00e9n ha enfrentado cr\u00edticas por ayudar a la vigilancia y afectar los derechos de los palestinos.",
+        "explanation_en": "Google has established R&D centers in Israel, focusing mainly on search algorithms, advertising technologies, and security. Additionally, it has acquired new Israeli companies, including Waze. In collaboration with Amazon, Google launched Project Nimbus in 2021 to provide cloud services to the Israeli government and military. While this project aims to improve Israel's technological infrastructure, it has also faced criticism for aiding surveillance and affecting the rights of Palestinians.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": true
+    },
+    "Cisco": {
+        "companyName": "Cisco",
+        "subbrands": [],
+        "explanation": "La empresa integra plataformas en redes, seguridad, colaboraci\u00f3n, aplicaciones y la nube. A trav\u00e9s de sus filiales israel\u00edes de propiedad total, Cisco Systems tiene una amplia base de complicidad con la econom\u00eda de ocupaci\u00f3n de Israel, predominantemente a trav\u00e9s de la prestaci\u00f3n de servicios al ej\u00e9rcito israel\u00ed.",
+        "explanation_en": "The company integrates platforms in networking, security, collaboration, applications, and the cloud. Through its wholly-owned Israeli subsidiaries, Cisco Systems has a broad complicity with the Israeli occupation economy, predominantly through the provision of services to the Israeli military.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": true
+    },
+    "IBM": {
+        "companyName": "IBM",
+        "subbrands": [],
+        "explanation": "Tiene una fuerte presencia de I+D en Israel que se centra en tecnolog\u00edas de nube, inteligencia artificial y ciberseguridad y ha adquirido varias empresas de tecnolog\u00eda israel\u00edes.",
+        "explanation_en": "It has a strong R&D presence in Israel focused on cloud technologies, artificial intelligence, and cybersecurity, and has acquired several Israeli technology companies.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Chanel": {
+        "companyName": "Chanel",
+        "subbrands": [],
+        "explanation": "Alain Wertheimer, que conden\u00f3 el ataque a Israel pero guard\u00f3 silencio sobre los ataques a Gaza, tambi\u00e9n prometi\u00f3 4 millones de d\u00f3lares en nombre de Chanel.",
+        "explanation_en": "Alain Wertheimer, who condemned the attack on Israel but remained silent about the attacks on Gaza, also promised 4 million dollars on behalf of Chanel.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Dell": {
+        "companyName": "Dell",
+        "subbrands": [],
+        "explanation": "Los productos de Dell incluyen computadoras personales y servidores. En 2023, Dell Technologies gan\u00f3 la licitaci\u00f3n de servidores del Ministerio de Defensa de Israel, que se considera la licitaci\u00f3n de servidores m\u00e1s grande en Israel hasta el momento. El alcance es de 150 millones de d\u00f3lares por un per\u00edodo de dos a\u00f1os, durante los cuales Dell proporcionar\u00e1 servidores y mantenimiento al ej\u00e9rcito israel\u00ed y al Ministerio de Defensa israel\u00ed (IMOD). Se sabe que la Fundaci\u00f3n Michael & Susan Dell, establecida por los fundadores de Dell, brinda apoyo directo a Israel.",
+        "explanation_en": "The products of Dell include personal computers and servers. In 2023, Dell Technologies won the bid for servers from the Ministry of Defense of Israel, which is considered the largest server bid in Israel to date. The scope is 150 million dollars over a period of two years, during which Dell will provide servers and maintenance to the Israeli army and the Israeli Ministry of Defense (IMOD). It is known that the Michael & Susan Dell Foundation, established by the founders of Dell, provides direct support to Israel.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": true
+    },
+    "Procter & Gamble": {
+        "companyName": "Procter & Gamble",
+        "subbrands": [
+            "Ariel",
+            "Braun",
+            "Gillette",
+            "Gillete Venus",
+            "Head & Shoulders",
+            "Head and Shoulders",
+            "Herbal Essences",
+            "Pantene",
+            "Old Spice",
+            "Oral-B",
+            "Pampers",
+            "Tide",
+            "Procter and Gamble",
+            ""
+        ],
+        "explanation": "Procter & Gamble abri\u00f3 un centro de I+D en Tel Aviv, Palestina ocupada, en el que invierte 2.000 millones de d\u00f3lares al a\u00f1o.",
+        "explanation_en": "Procter & Gamble opened an R&D center in Tel Aviv, occupied Palestine, investing $2 billion a year.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Adidas": {
+        "companyName": "Adidas",
+        "subbrands": [],
+        "explanation": "Adidas utiliza al fabricante israel\u00ed Delta Galil para fabricar su gama de ropa interior.",
+        "explanation_en": "Adidas uses the Israeli manufacturer Delta Galil to produce its range of underwear.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
+    },
+    "Bath & Body Works": {
+        "companyName": "Bath & Body Works",
+        "subbrands": [],
+        "explanation": "Les Wexner, propietario de L Brands, la empresa matriz de Bath&Body Works, es un aliado incondicional de Israel y socio comercial desde hace mucho tiempo de Jeffrey Epstein, el traficante de ni\u00f1os condenado.",
+        "explanation_en": "Les Wexner, owner of L Brands, the parent company of Bath & Body Works, is an unwavering ally of Israel and a long-time business partner of Jeffrey Epstein, the convicted child trafficker.",
+        "public_url": null,
+        "icons": "\ud83d\udeab\ud83d\udeab\ud83d\udeab",
+        "is_bds": false
     }
 }
