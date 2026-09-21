@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Boycott Detect</title>
+    <meta name="description" content="Noticias y artículos de Boycott Detect">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        (function () {
+            if (!window.isSecureContext || !('serviceWorker' in navigator)) {
+                return;
+            }
+            var reloadKey = 'notion_sw_reload_attempted';
+            var scriptUrl = new URL('sw-notion-proxy.js', window.location.origin + '/').pathname;
+            var scopeUrl = new URL('/', window.location.origin).pathname;
+            navigator.serviceWorker.register(scriptUrl, { scope: scopeUrl }).then(function (registration) {
+                if (navigator.serviceWorker.controller) {
+                    return;
+                }
+                return registration.update().catch(function () {});
+            }).then(function () {
+                if (navigator.serviceWorker.controller) {
+                    return;
+                }
+                return navigator.serviceWorker.ready;
+            }).then(function () {
+                if (navigator.serviceWorker.controller) {
+                    return;
+                }
+                if (!sessionStorage.getItem(reloadKey)) {
+                    sessionStorage.setItem(reloadKey, '1');
+                    window.location.reload();
+                }
+            }).catch(function () {});
+        })();
+    </script>
+    <script src="js/header.js"></script>
+</head>
+<body class="landing-page">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link" href="brands_list.html">Ver Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-link nav-cta" href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" target="_blank" rel="noopener noreferrer">Instala Boycott Detect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="blog-page-main">
+        <section id="blog-list-view" class="container-2">
+            <header class="blog-page-header">
+                <h1 class="green">Blog</h1>
+                <p>Artículos, guías y novedades sobre boicot consciente y Boycott Detect.</p>
+            </header>
+            <div id="blog-grid" class="blog-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="blog-post-view" class="container-2" hidden>
+            <div class="blog-post-header">
+                <a id="blog-back-button" class="blog-back-link" href="blog.html#/">← Volver al blog</a>
+                <h1 id="blog-post-title"></h1>
+                <time id="blog-post-date" class="blog-post-meta"></time>
+            </div>
+            <div id="blog-post-hero" class="blog-post-hero"></div>
+            <div id="blog-post-content" class="blog-post-content" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <script src="js/notion-blog.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            window.NotionBlog.initBlogPage();
+        });
+    </script>
+</body>
+</html>
