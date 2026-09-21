@@ -14,35 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script>
-        (function () {
-            if (!window.isSecureContext || !('serviceWorker' in navigator)) {
-                return;
-            }
-            var reloadKey = 'notion_sw_reload_attempted';
-            var scriptUrl = new URL('sw-notion-proxy.js', window.location.origin + '/').pathname;
-            var scopeUrl = new URL('/', window.location.origin).pathname;
-            navigator.serviceWorker.register(scriptUrl, { scope: scopeUrl }).then(function (registration) {
-                if (navigator.serviceWorker.controller) {
-                    return;
-                }
-                return registration.update().catch(function () {});
-            }).then(function () {
-                if (navigator.serviceWorker.controller) {
-                    return;
-                }
-                return navigator.serviceWorker.ready;
-            }).then(function () {
-                if (navigator.serviceWorker.controller) {
-                    return;
-                }
-                if (!sessionStorage.getItem(reloadKey)) {
-                    sessionStorage.setItem(reloadKey, '1');
-                    window.location.reload();
-                }
-            }).catch(function () {});
-        })();
-    </script>
     <script src="js/header.js"></script>
 </head>
 <body class="landing-page">
@@ -93,10 +64,10 @@
         </section>
     </main>
 
-    <script src="js/notion-blog.js"></script>
+    <script src="js/blog.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            window.NotionBlog.initBlogPage();
+            window.Blog.initBlogPage();
         });
     </script>
 </body>

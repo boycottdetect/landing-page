@@ -1,31 +1,18 @@
 /**
- * Notion Blog — frontend-only client and block renderer.
- *
- * CORS: Notion's API does not send Access-Control-Allow-Origin. This module
- * registers sw-notion-proxy.js (same-origin) on HTTPS/localhost to forward
- * requests to api.notion.com. On file:// or without service workers, set
- * NOTION_CORS_PROXY to a trusted forward proxy.
+ * Static blog — loads databases/blog_export.json and renders Notion-shaped blocks.
+ * No Notion API, tokens, or service worker. Refresh the JSON export on deploy.
  */
 (function (global) {
     'use strict';
 
-    const NOTION_API_BASE = 'https://api.notion.com/v1';
-    const NOTION_VERSION = '2022-06-28';
-    const NOTION_TOKEN = 'ntn_i41739681098odb3J1m0z8LNR2ntUtOsIdFCLGYBozccMo';
-    const DATABASE_ID = '3d10f8c9b2ed805b836fd9c4095acb9b';
+    const LANDING_PAGE_BASE_URL = new URL('./', global.location.href);
+    const BLOG_EXPORT_JSON_URL = new URL(
+        'databases/blog_export.json',
+        LANDING_PAGE_BASE_URL
+    ).href;
 
-    const SERVICE_WORKER_SCRIPT_URL = new URL(
-        'sw-notion-proxy.js',
-        global.location.origin + '/'
-    ).pathname;
-    const SERVICE_WORKER_SCOPE = new URL('/', global.location.origin).pathname;
-    const NOTION_PROXY_PATH_PREFIX = '/notion-api';
-
-    /** Optional third-party CORS proxy prefix (empty = use service worker or direct) */
-    const NOTION_CORS_PROXY = '';
-
-    let serviceWorkerInitPromise = null;
-    const SERVICE_WORKER_RELOAD_KEY = 'notion_sw_reload_attempted';
+    let blogExportLoadPromise = null;
+    let cachedBlogExport = null;
 
     function escapeHtml(rawText) {
         return String(rawText)
@@ -35,254 +22,106 @@
             .replace(/"/g, '&quot;');
     }
 
-    function buildNotionHeaders() {
-        return {
-            Authorization: 'Bearer ' + NOTION_TOKEN,
-            'Notion-Version': NOTION_VERSION,
-            'Content-Type': 'application/json',
-        };
-    }
-
-    function serviceWorkerEnvironmentSupported() {
-        return Boolean(global.isSecureContext && global.navigator.serviceWorker);
-    }
-
-    function hasServiceWorkerControl() {
-        return Boolean(
-            serviceWorkerEnvironmentSupported() &&
-                global.navigator.serviceWorker.controller
+    function buildBlogExportLoadError(fetchError, httpStatus) {
+        if (httpStatus === 404) {
+            return (
+                'No se encontró databases/blog_export.json. Copia el archivo generado ' +
+                'por el export del servidor a landing-page/databases/.'
+            );
+        }
+        if (fetchError && fetchError.message === 'Failed to fetch') {
+            return (
+                'No se pudo descargar databases/blog_export.json. Comprueba la conexión ' +
+                'o que el archivo esté publicado junto al sitio.'
+            );
+        }
+        return (
+            (fetchError && fetchError.message) ||
+            'Error desconocido al cargar el blog.'
         );
     }
 
-    function waitForServiceWorkerControl(maxWaitMs) {
-        const deadline = Date.now() + (maxWaitMs || 8000);
-        return new Promise(function (resolve) {
-            function checkControl() {
-                if (hasServiceWorkerControl()) {
-                    resolve(true);
-                    return;
-                }
-                if (Date.now() >= deadline) {
-                    resolve(false);
-                    return;
-                }
-                setTimeout(checkControl, 100);
+    async function loadBlogExport() {
+        if (cachedBlogExport) {
+            return cachedBlogExport;
+        }
+        if (blogExportLoadPromise) {
+            return blogExportLoadPromise;
+        }
+
+        blogExportLoadPromise = (async function () {
+            let response;
+            try {
+                response = await fetch(BLOG_EXPORT_JSON_URL, { cache: 'no-cache' });
+            } catch (networkError) {
+                throw new Error(buildBlogExportLoadError(networkError));
             }
-            global.navigator.serviceWorker.addEventListener(
-                'controllerchange',
-                function () {
-                    resolve(hasServiceWorkerControl());
-                },
-                { once: true }
-            );
-            checkControl();
-        });
+            if (!response.ok) {
+                throw new Error(buildBlogExportLoadError(null, response.status));
+            }
+            let parsed;
+            try {
+                parsed = await response.json();
+            } catch (parseError) {
+                throw new Error(
+                    'databases/blog_export.json no es JSON válido.'
+                );
+            }
+            if (!parsed || !Array.isArray(parsed.pages)) {
+                throw new Error(
+                    'El export del blog no tiene el formato esperado (falta "pages").'
+                );
+            }
+            if (!parsed.blocksByPageId || typeof parsed.blocksByPageId !== 'object') {
+                parsed.blocksByPageId = {};
+            }
+            cachedBlogExport = parsed;
+            return cachedBlogExport;
+        })();
+
+        return blogExportLoadPromise;
     }
 
-    function reloadOnceForServiceWorkerControl() {
-        if (sessionStorage.getItem(SERVICE_WORKER_RELOAD_KEY)) {
+    function isPublishedPage(page) {
+        if (!page || page.object !== 'page') {
             return false;
         }
-        sessionStorage.setItem(SERVICE_WORKER_RELOAD_KEY, '1');
-        global.location.reload();
+        if (page.in_trash === true || page.is_archived === true || page.archived === true) {
+            return false;
+        }
         return true;
     }
 
-    async function ensureNotionServiceWorker() {
-        if (!serviceWorkerEnvironmentSupported()) {
-            return false;
-        }
-        if (NOTION_CORS_PROXY) {
-            return false;
-        }
-        if (serviceWorkerInitPromise) {
-            return serviceWorkerInitPromise;
-        }
-
-        serviceWorkerInitPromise = (async function () {
-            try {
-                const registration = await global.navigator.serviceWorker.register(
-                    SERVICE_WORKER_SCRIPT_URL,
-                    { scope: SERVICE_WORKER_SCOPE }
-                );
-                await global.navigator.serviceWorker.ready;
-
-                if (!hasServiceWorkerControl()) {
-                    await waitForServiceWorkerControl(6000);
-                }
-                if (!hasServiceWorkerControl() && registration.active) {
-                    reloadOnceForServiceWorkerControl();
-                    await new Promise(function () {
-                        /* page reload in progress */
-                    });
-                }
-                return hasServiceWorkerControl();
-            } catch (registerError) {
-                return false;
-            }
-        })();
-
-        return serviceWorkerInitPromise;
-    }
-
-    function buildProxiedNotionUrl(apiPath) {
-        return new URL(NOTION_PROXY_PATH_PREFIX + apiPath, global.location.origin)
-            .href;
-    }
-
-    function buildRequestUrl(apiPath) {
-        if (NOTION_CORS_PROXY) {
-            return NOTION_CORS_PROXY + encodeURIComponent(NOTION_API_BASE + apiPath);
-        }
-        if (serviceWorkerEnvironmentSupported()) {
-            return buildProxiedNotionUrl(apiPath);
-        }
-        return NOTION_API_BASE + apiPath;
-    }
-
-    function isLikelyNetworkOrCorsError(fetchError) {
-        return (
-            fetchError.message === 'Failed to fetch' ||
-            fetchError.name === 'TypeError'
-        );
-    }
-
-    function buildFetchFailureMessage(fetchError, usedProxyPath) {
-        if (!serviceWorkerEnvironmentSupported()) {
-            return (
-                'No se pudo conectar con Notion. Abre el sitio por HTTPS o localhost ' +
-                '(el proxy del service worker no está disponible en este entorno).'
-            );
-        }
-        if (usedProxyPath && isLikelyNetworkOrCorsError(fetchError)) {
-            return (
-                'No se pudo conectar con Notion. Comprueba que sw-notion-proxy.js esté ' +
-                'publicado en la raíz del sitio y se sirva con Content-Type: application/javascript. ' +
-                'Recarga la página una vez tras la primera visita para activar el proxy.'
-            );
-        }
-        if (isLikelyNetworkOrCorsError(fetchError)) {
-            return (
-                'No se pudo conectar con Notion (CORS). Recarga la página para activar el ' +
-                'proxy del service worker, o configura NOTION_CORS_PROXY en notion-blog.js.'
-            );
-        }
-        return fetchError.message;
-    }
-
-    async function attemptNotionFetch(requestUrl, fetchOptions) {
-        const response = await fetch(requestUrl, fetchOptions);
-        if (!response.ok) {
-            let detail = response.statusText;
-            try {
-                const errorBody = await response.json();
-                if (errorBody.message) {
-                    detail = errorBody.message;
-                }
-            } catch (parseError) {
-                /* use statusText */
-            }
-            if (
-                response.status === 404 &&
-                requestUrl.indexOf(NOTION_PROXY_PATH_PREFIX) !== -1
-            ) {
-                throw new Error(
-                    'El proxy del service worker no respondió (404). Publica sw-notion-proxy.js ' +
-                        'en la raíz del dominio y recarga la página.'
-                );
-            }
-            throw new Error('Notion API ' + response.status + ': ' + detail);
-        }
-        return response.json();
-    }
-
-    async function fetchViaProxyWithRetry(apiPath, requestInit, preferProxy) {
-        const proxyUrl = buildProxiedNotionUrl(apiPath);
-        try {
-            return await attemptNotionFetch(proxyUrl, requestInit);
-        } catch (primaryError) {
-            if (!preferProxy) {
-                throw primaryError;
-            }
-            if (hasServiceWorkerControl()) {
-                throw new Error(buildFetchFailureMessage(primaryError, true));
-            }
-            const gotControl = await waitForServiceWorkerControl(5000);
-            if (gotControl) {
-                try {
-                    return await attemptNotionFetch(proxyUrl, requestInit);
-                } catch (retryError) {
-                    throw new Error(buildFetchFailureMessage(retryError, true));
-                }
-            }
-            if (isLikelyNetworkOrCorsError(primaryError)) {
-                throw new Error(buildFetchFailureMessage(primaryError, true));
-            }
-            throw primaryError;
-        }
-    }
-
-    async function notionFetch(apiPath, fetchOptions) {
-        await ensureNotionServiceWorker();
-
-        const requestInit = Object.assign({}, fetchOptions, {
-            headers: Object.assign({}, buildNotionHeaders(), fetchOptions.headers || {}),
-            mode: 'cors',
-        });
-
-        const preferProxy =
-            !NOTION_CORS_PROXY && serviceWorkerEnvironmentSupported();
-        if (preferProxy) {
-            return fetchViaProxyWithRetry(apiPath, requestInit, true);
-        }
-        return attemptNotionFetch(buildRequestUrl(apiPath), requestInit);
-    }
-
     async function queryAllDatabasePages() {
-        const pages = [];
-        let cursor = undefined;
-        let hasMore = true;
-
-        while (hasMore) {
-            const body = { page_size: 100 };
-            if (cursor) {
-                body.start_cursor = cursor;
-            }
-            const data = await notionFetch('/databases/' + DATABASE_ID + '/query', {
-                method: 'POST',
-                body: JSON.stringify(body),
-            });
-            pages.push.apply(pages, data.results || []);
-            hasMore = data.has_more === true;
-            cursor = data.next_cursor;
-        }
-
+        const exportData = await loadBlogExport();
+        const pages = exportData.pages.filter(isPublishedPage);
         pages.sort(function (pageA, pageB) {
             const timeA = Date.parse(pageA.last_edited_time || 0);
             const timeB = Date.parse(pageB.last_edited_time || 0);
             return timeB - timeA;
         });
-
         return pages;
     }
 
-    async function fetchAllBlockChildren(blockId) {
-        const blocks = [];
-        let cursor = undefined;
-        let hasMore = true;
-
-        while (hasMore) {
-            let path = '/blocks/' + blockId + '/children?page_size=100';
-            if (cursor) {
-                path += '&start_cursor=' + encodeURIComponent(cursor);
-            }
-            const data = await notionFetch(path, { method: 'GET' });
-            blocks.push.apply(blocks, data.results || []);
-            hasMore = data.has_more === true;
-            cursor = data.next_cursor;
+    function blockChildrenFromExport(parentId) {
+        if (!cachedBlogExport || !parentId) {
+            return [];
         }
+        const blocksMap = cachedBlogExport.blocksByPageId;
+        const listPayload = blocksMap[parentId];
+        if (listPayload && Array.isArray(listPayload.results)) {
+            return listPayload.results;
+        }
+        return [];
+    }
 
-        return blocks;
+    async function fetchAllBlockChildren(blockId) {
+        await loadBlogExport();
+        const fromMap = blockChildrenFromExport(blockId);
+        if (fromMap.length) {
+            return fromMap;
+        }
+        return [];
     }
 
     function plainTextFromRichText(richTextArray) {
@@ -613,8 +452,16 @@
         loading.textContent = 'Cargando contenido…';
         contentRoot.appendChild(loading);
 
+        await loadBlogExport();
         const blocks = await fetchAllBlockChildren(pageId);
         contentRoot.innerHTML = '';
+        if (!blocks.length) {
+            const emptyNote = document.createElement('p');
+            emptyNote.className = 'blog-empty';
+            emptyNote.textContent = 'Esta entrada no tiene contenido en el export.';
+            contentRoot.appendChild(emptyNote);
+            return;
+        }
         const articleBody = document.createElement('div');
         articleBody.className = 'notion-article-body';
         await appendGroupedBlocks(articleBody, blocks);
@@ -666,14 +513,14 @@
 
     function showBlogError(container, message) {
         container.innerHTML = '';
-        const alert = document.createElement('div');
-        alert.className = 'blog-error';
-        alert.setAttribute('role', 'alert');
-        alert.innerHTML =
+        const alertBox = document.createElement('div');
+        alertBox.className = 'blog-error';
+        alertBox.setAttribute('role', 'alert');
+        alertBox.innerHTML =
             '<p><strong>No se pudo cargar el blog.</strong></p><p>' +
             escapeHtml(message) +
             '</p>';
-        container.appendChild(alert);
+        container.appendChild(alertBox);
     }
 
     function normalizePageIdFromHash(rawId) {
@@ -784,7 +631,6 @@
 
         grid.innerHTML = '<p class="blog-loading">Cargando entradas…</p>';
         try {
-            await ensureNotionServiceWorker();
             const pages = await ensurePages();
             grid.innerHTML = '';
             if (!pages.length) {
@@ -808,8 +654,8 @@
 
         const cardLimit = maxCards || 4;
 
+        teaserGrid.innerHTML = '<p class="blog-loading">Cargando entradas…</p>';
         try {
-            await ensureNotionServiceWorker();
             const pages = await queryAllDatabasePages();
             const slice = pages.slice(0, cardLimit);
             teaserGrid.innerHTML = '';
@@ -822,16 +668,14 @@
                 teaserGrid.appendChild(createBlogCard(page));
             });
         } catch (teaserError) {
-            teaserGrid.innerHTML =
-                '<p class="blog-teaser-fallback">' +
-                'Visita el <a href="blog.html">blog</a> para leer nuestras publicaciones.</p>';
+            showBlogError(teaserGrid, teaserError.message);
         }
     }
 
-    global.NotionBlog = {
+    global.Blog = {
         initBlogPage: initBlogPage,
         initHomeBlogTeaser: initHomeBlogTeaser,
         queryAllDatabasePages: queryAllDatabasePages,
-        ensureNotionServiceWorker: ensureNotionServiceWorker,
+        loadBlogExport: loadBlogExport,
     };
 })(window);
