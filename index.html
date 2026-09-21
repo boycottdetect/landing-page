@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,15 @@
     <link href="css/main.css" rel="stylesheet">
     <meta property="og:image" content="/assets/banner-zoom_optimized.png" />
     <meta property="og:title" content="Boycott Detect" />
-    <meta property="og:url" content="https://boycottdetect.github.io/landing-page" />
+    <meta property="og:url" content="https://boycottdetect.org" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:site_name" content="Boycott Detect" />
     <meta property="og:image:alt" content="Boycott Detect Logo" />
-    
 
-    <!-- Favicon -->
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 
-    <!-- Latest minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Bootstrap Packaged JS (Bundle) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,23 +28,19 @@
     <script src="js/header.js"></script>
     <link rel="stylesheet" href="css/header.css">
 </head>
-<body>
-       <!-- Navigation Header -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+<body class="landing-page">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm">
         <div class="container-fluid">
-            <!-- Logo on the right -->
-            <a class="navbar-brand me-3" href="index.html" style="float: left;">
-                <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo" width="80px" style="margin: -10px;">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo">
             </a>
-            
-            <!-- Hamburger button for mobile -->
-            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <!-- Navigation menu -->
+
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item">
                         <a class="nav-link btn btn-link" href="index.html">Inicio</a>
                     </li>
@@ -57,119 +48,111 @@
                         <a class="nav-link btn btn-link" href="brands_list.html">Ver Marcas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-link" href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page">Instala Boycott Detect</a>
+                        <a class="nav-link btn btn-link nav-cta" href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" target="_blank" rel="noopener noreferrer">Instala Boycott Detect</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container-fluid text-center">
-        <img src="assets/logo.png" alt="Boycott Detect Logo" class="logo" width="200px">
-    </div>
 
-    <div class="bg-main container-1 d-lg-flex">
-        <div class="mobile p-3">
-            <img src="./assets/Laptoplogo.png" width="100%">
-        </div>
-        <div class="container-2">
-            <h1>LA HERRAMIENTA PARA HACER BOICOT MIENTRAS NAVEGAS POR INTERNET</h1>
-            <p>Descubre las marcas y empresas que apoyan el genocidio del pueblo palestino y explora nuevas alternativas éticas</p>
-            <a href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" class="btn btn-primary btn-main btn-lg" role="button">INSTALA AQUÍ ></a>
-        </div>
-        <div class="no-mobile">
-            <img src="./assets/Laptoplogo.png" width="100%">
-        </div>
-    </div>
-    <div class="container-2 text-center">
-        <h2 class="green">Simplifica tu navegación y toma acción con Boycott Detect</h2>
-        <p class="container-3">Boycott Detect detecta marcas en tiempo real que son cómplices del genocidio palestino. Con información clara, te ayudamos a tomar 
-            decisiones informadas y a ejercer un boicot pacífico y de alto impacto.
-        </p>
-    </div>
-    <div class="bg-banner-mobile mobile">
-        <div class="space"></div>
-    </div>
-    <div class="container-2 bg-main-2">
-        <h2 class="text-center">¿CÓMO FUNCIONA?</h2>
-        <div class="row m-5">
-            <div class="col image-margin">
-                <h3>01</h3>
-                <p>Detecta marcas directamente en las páginas web y resultados de búsquedas.</p>
-                <img src="./assets/Image 1logo.png" width="100%">
+    <main>
+        <section class="bg-main container-1 section-hero d-lg-flex">
+            <div class="hero-visual mobile">
+                <img src="./assets/Laptoplogo.png" alt="Vista previa de Boycott Detect en el navegador">
             </div>
-            <div class="col image-margin no-mobile">
-                <img class="mb-3" src="./assets/Image 3logo.png" width="100%">
-                <h3>02</h3>
-                <p>Aparece un popup o los íconos 🚫🚫🚫 junto a las marcas de boicot</p>
+            <div class="container-2 hero-copy">
+                <h1>La herramienta para hacer boicot mientras navegas por internet</h1>
+                <p>Descubre las marcas y empresas que apoyan el genocidio del pueblo palestino y explora nuevas alternativas éticas.</p>
+                <a href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" class="btn btn-primary btn-main btn-lg" role="button" target="_blank" rel="noopener noreferrer">Instala aquí &gt;</a>
             </div>
-            <div class="col image-margin mobile mt-3">
-                <h3>02</h3>
-                <p>Aparece un popup o los íconos 🚫🚫🚫 junto a las marcas de boicot</p>
-                <img class="mb-3" src="./assets/Image 3logo.png" width="100%">
+            <div class="hero-visual no-mobile">
+                <img src="./assets/Laptoplogo.png" alt="Vista previa de Boycott Detect en el navegador">
             </div>
-            <div class="col image-margin">
-                <h3>03</h3>
-                <p>Es seguro y respeta tu privacidad: no se guardan datos ni historial de navegación.</p>
-                <img src="./assets/Image 2logo.png" width="100%">
+        </section>
+
+        <section class="container-2 section-intro">
+            <h2 class="green">Simplifica tu navegación y toma acción con Boycott Detect</h2>
+            <p class="container-3">Boycott Detect detecta marcas en tiempo real que son cómplices del genocidio palestino. Con información clara, te ayudamos a tomar decisiones informadas y a ejercer un boicot pacífico y de alto impacto.</p>
+        </section>
+
+        <section class="bg-banner-mobile mobile cta-banner" aria-labelledby="mobile-brands-heading">
+            <h2 id="mobile-brands-heading">Revisa las marcas en Boycott Detect</h2>
+            <p>Todas las marcas son rigurosamente investigadas.</p>
+            <a href="./brands_list.html" class="btn btn-main btn-lg" role="button">Ver marcas</a>
+        </section>
+
+        <section class="container-2 bg-main-2 how-it-works">
+            <h2 class="text-center">¿Cómo funciona?</h2>
+            <div class="row how-it-works-grid justify-content-center g-4 mt-4">
+                <div class="col-12 col-lg-4 image-margin">
+                    <div class="step-card">
+                        <h3>01</h3>
+                        <p>Detecta marcas directamente en las páginas web y resultados de búsquedas.</p>
+                        <img src="./assets/Image 1logo.png" alt="Detección en páginas web">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 image-margin">
+                    <div class="step-card">
+                        <h3>02</h3>
+                        <p>Aparece un popup o los íconos 🚫🚫🚫 junto a las marcas de boicot.</p>
+                        <img src="./assets/Image 3logo.png" alt="Popup de alerta de boicot">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 image-margin">
+                    <div class="step-card">
+                        <h3>03</h3>
+                        <p>Es seguro y respeta tu privacidad: no se guardan datos ni historial de navegación.</p>
+                        <img src="./assets/Image 2logo.png" alt="Privacidad y seguridad">
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="container-1 bg-banner no-mobile">
-        <h1>
-            REVISA LAS MARCAS EN BOYCOTT DETECT
-        </h1>
-        <p>
-            Todas las marcas son rigurosamente investigadas
-        </p>
-        <a href="./brands_list.html" class="btn btn-primary btn-main btn-lg" role="button">VER MARCAS</a>
-    </div>
-    <div class="container-2 text-center">
-        <h2>BENEFICIOS</h2>
-        <div class="row container-3">
-            <div class="col m-5">
-                <img src="./assets/Icono 1logo.png" width="60px">
-                <p>Herramienta de impacto pacífico y directo</p>
+        </section>
+
+        <section class="container-1 bg-banner no-mobile" aria-labelledby="desktop-brands-heading">
+            <h1 id="desktop-brands-heading">Revisa las marcas en Boycott Detect</h1>
+            <p>Todas las marcas son rigurosamente investigadas.</p>
+            <a href="./brands_list.html" class="btn btn-primary btn-main btn-lg" role="button">Ver marcas</a>
+        </section>
+
+        <section class="container-2 text-center section-benefits">
+            <h2>Beneficios</h2>
+            <div class="row container-3 g-4 mt-2">
+                <div class="col-md-4">
+                    <div class="benefit-card">
+                        <img src="./assets/Icono 1logo.png" alt="" width="60" height="60">
+                        <p>Herramienta de impacto pacífico y directo</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-card">
+                        <img src="./assets/Icono 2logo.png" alt="" width="60" height="60">
+                        <p>Información actualizada con investigaciones rigurosas</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-card">
+                        <img src="./assets/Icono 3logo.png" alt="" width="60" height="60">
+                        <p>Compatible con búsquedas web</p>
+                    </div>
+                </div>
             </div>
-            <div class="col m-5">
-                <img src="./assets/Icono 2logo.png" width="60px">
-                <p>Información actualizada con investigaciones rigurosas</p>
+        </section>
+
+        <section class="container-2 bg-main d-lg-flex footer-panel">
+            <img class="footer-icon" src="./assets/Icono footerlogo.png" alt="" width="60" height="60">
+            <div class="footer-block">
+                <h2>Ayúdanos a mejorar</h2>
+                <p>En este enlace puedes escribir feedback para los desarrolladores, marcas y otros comentarios.</p>
+                <a href="https://forms.gle/t36UXXrRkmoaHjc86" class="btn btn-main btn-lg text-white" role="button" target="_blank" rel="noopener noreferrer">Escribir mejoras &gt;</a>
             </div>
-            <div class="col m-5">
-                <img src="./assets/Icono 3logo.png" width="60px">
-                <p>Compatible con búsquedas web</p>
+            <img class="footer-wordmark" src="./assets/Logo fondo oscuro.png" alt="Boycott Detect">
+            <div class="footer-block">
+                <a href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" class="btn btn-main btn-lg text-white mb-3 d-inline-block" role="button" target="_blank" rel="noopener noreferrer">Añade Boycott Detect aquí &gt;</a>
+                <a class="instagram-link" href="https://instagram.com/boycottdetect" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/instagram.png" alt="">@boycottdetect
+                </a>
             </div>
-        </div>
-    </div>
-    <div class="no-mobile">
-        <div class="container-2 bg-main d-lg-flex">
-            <img class="m-3" src="./assets/Icono footerlogo.png" width="60px" height="50px">
-            <div class="d-block">
-                <h2>AYÚDANOS A MEJORAR</h2>
-                <p>En este link puedes escribir el feedback para los desarrolladores, marcas y otros comentarios: </p>
-                <a href="https://forms.gle/t36UXXrRkmoaHjc86" class="btn btn-main btn-main btn-lg text-white" role="button">ESCRIBIR MEJORAS ></a>
-            </div>
-            <img class="" src="./assets/Logo fondo oscuro.png" width="150px">
-            <div class="d-block">
-                <a href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" class="btn btn-main btn-main btn-lg text-white mb-4" role="button">AÑADE BOYCOTT DETECT AQUÍ ></a>
-                <a class="d-flex" href="https://instagram.com/boycottdetect" ><img src="./assets/instagram.png" width="20px">@boycottdetect</a>
-            </div>
-        </div>
-    </div>
-    <div class="mobile">
-        <div class="container-2 bg-main d-lg-flex text-center">
-            <img class="m-3" src="./assets/Icono footerlogo.png" width="60px" height="50px">
-            <div class="d-block">
-                <h2>AYÚDANOS A MEJORAR</h2>
-                <p>En este link puedes escribir el feedback para los desarrolladores, marcas y otros comentarios: </p>
-                <a href="https://forms.gle/t36UXXrRkmoaHjc86" class="btn btn-main btn-main btn-lg text-white" role="button">DEJAR MEJORAS ></a>
-            </div>
-            <img class="" src="./assets/Logo fondo oscuro.png" width="150px">
-            <div class="d-block">
-                <a href="https://chromewebstore.google.com/detail/boycott-detect/hlfgliinhcpbkdhjplhpehhfdblbgeih?pli=1&amp;source=landing-page" class="btn btn-main btn-main btn-lg text-white mb-4" role="button">AÑADE BOYCOTT DETECT AQUÍ ></a>
-                <a class="d-flex  justify-content-center" href="https://instagram.com/boycottdetect" ><img src="./assets/instagram.png" width="20px">@boycottdetect</a>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
-
 </html>

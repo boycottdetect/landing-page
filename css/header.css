@@ -1,8 +1,18 @@
+:root {
+    --landing-red: #ff2e38;
+    --landing-red-dark: #e0252e;
+    --landing-green: #00963a;
+    --landing-dark: #333333;
+}
+
 /* Header Navigation Styles */
 .navbar {
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
     z-index: 1000;
+    background: rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .navbar-brand {
@@ -39,6 +49,26 @@
     color: #ff2e38 !important;
     background-color: rgba(255, 46, 56, 0.15);
     font-weight: 600;
+}
+
+.navbar-nav .nav-link.nav-cta {
+    background: linear-gradient(135deg, var(--landing-red) 0%, var(--landing-red-dark) 100%);
+    color: var(--white) !important;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(255, 46, 56, 0.3);
+}
+
+.navbar-nav .nav-link.nav-cta:hover,
+.navbar-nav .nav-link.nav-cta:focus {
+    color: var(--white) !important;
+    background: linear-gradient(135deg, var(--landing-red-dark) 0%, #c91f28 100%);
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.nav-cta.active {
+    color: var(--white) !important;
+    background: linear-gradient(135deg, var(--landing-green) 0%, #007a2f 100%);
+    box-shadow: 0 4px 12px rgba(0, 150, 58, 0.35);
 }
 
 .navbar-toggler {

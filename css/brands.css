@@ -1,13 +1,17 @@
 body {
-    /* Font not working */
-    font-family: 'Poppins sans';
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
     overflow: auto;
-    background-image: url('../assets/Fondologo.png');
+    background-image:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 244, 244, 0.88) 45%, rgba(244, 244, 244, 0.95) 100%),
+        url('../assets/Fondologo.png');
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
+    background-position: center, center;
 }
 
 header {
@@ -64,8 +68,11 @@ input[type="email"] {
 }
 
 .logo {
-    width: 200px;
+    width: clamp(56px, 12vw, 88px);
     height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
 }
 
 .brand-div{
